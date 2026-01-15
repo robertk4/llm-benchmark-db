@@ -1,0 +1,3038 @@
+[
+  {
+    "name": "gpt2",
+    "full_name": "openai-community/gpt2",
+    "speed": 39.49,
+    "vram": 0.25
+  },
+  {
+    "name": "gpt2",
+    "full_name": "openai-community/gpt2",
+    "speed": 35.6,
+    "vram": 0.25
+  },
+  {
+    "name": "gpt2",
+    "full_name": "openai-community/gpt2",
+    "speed": 71.31,
+    "vram": 0.21
+  },
+  {
+    "name": "gpt2",
+    "full_name": "openai-community/gpt2",
+    "speed": 66.3,
+    "vram": 0.21
+  },
+  {
+    "name": "gpt2",
+    "full_name": "openai-community/gpt2",
+    "speed": 38.21,
+    "vram": 0.25
+  },
+  {
+    "name": "gpt2",
+    "full_name": "openai-community/gpt2",
+    "speed": 69.6,
+    "vram": 0.21
+  },
+  {
+    "name": "opt-125m",
+    "full_name": "facebook/opt-125m",
+    "speed": 28.96,
+    "vram": 0.23
+  },
+  {
+    "name": "opt-125m",
+    "full_name": "facebook/opt-125m",
+    "speed": 61.23,
+    "vram": 0.19
+  },
+  {
+    "name": "opt-125m",
+    "full_name": "facebook/opt-125m",
+    "speed": 59.11,
+    "vram": 0.19
+  },
+  {
+    "name": "opt-125m",
+    "full_name": "facebook/opt-125m",
+    "speed": 90.62,
+    "vram": 0.17
+  },
+  {
+    "name": "opt-125m",
+    "full_name": "facebook/opt-125m",
+    "speed": 67.32,
+    "vram": 0.21
+  },
+  {
+    "name": "opt-125m",
+    "full_name": "facebook/opt-125m",
+    "speed": 30.38,
+    "vram": 0.23
+  },
+  {
+    "name": "Yi-34B",
+    "full_name": "01-ai/Yi-34B",
+    "speed": 10.34,
+    "vram": 21.16
+  },
+  {
+    "name": "Yi-6B",
+    "full_name": "01-ai/Yi-6B",
+    "speed": 8.96,
+    "vram": 6.66
+  },
+  {
+    "name": "Yi-6B",
+    "full_name": "01-ai/Yi-6B",
+    "speed": 19.64,
+    "vram": 4.43
+  },
+  {
+    "name": "Yi-34B",
+    "full_name": "01-ai/Yi-34B",
+    "speed": 9.22,
+    "vram": 21.16
+  },
+  {
+    "name": "Yi-34B",
+    "full_name": "01-ai/Yi-34B",
+    "speed": 10.72,
+    "vram": 21.16
+  },
+  {
+    "name": "Yi-6B",
+    "full_name": "01-ai/Yi-6B",
+    "speed": 19.4,
+    "vram": 4.43
+  },
+  {
+    "name": "Yi-6B",
+    "full_name": "01-ai/Yi-6B",
+    "speed": 8.92,
+    "vram": 6.66
+  },
+  {
+    "name": "Yi-6B",
+    "full_name": "01-ai/Yi-6B",
+    "speed": 21.02,
+    "vram": 4.43
+  },
+  {
+    "name": "Yi-6B",
+    "full_name": "01-ai/Yi-6B",
+    "speed": 9.03,
+    "vram": 6.66
+  },
+  {
+    "name": "pythia-410m",
+    "full_name": "EleutherAI/pythia-410m",
+    "speed": 29.27,
+    "vram": 0.59
+  },
+  {
+    "name": "pythia-12b",
+    "full_name": "EleutherAI/pythia-12b",
+    "speed": 11.62,
+    "vram": 12.94
+  },
+  {
+    "name": "gpt-neo-1.3B",
+    "full_name": "EleutherAI/gpt-neo-1.3B",
+    "speed": 14.71,
+    "vram": 1.58
+  },
+  {
+    "name": "gpt-neox-20b",
+    "full_name": "EleutherAI/gpt-neox-20b",
+    "speed": 13.78,
+    "vram": 13.98
+  },
+  {
+    "name": "gpt-neo-2.7B",
+    "full_name": "EleutherAI/gpt-neo-2.7B",
+    "speed": 10.69,
+    "vram": 3.07
+  },
+  {
+    "name": "pythia-1.4b",
+    "full_name": "EleutherAI/pythia-1.4b",
+    "speed": 29.56,
+    "vram": 1.43
+  },
+  {
+    "name": "pythia-410m",
+    "full_name": "EleutherAI/pythia-410m",
+    "speed": 18.66,
+    "vram": 0.72
+  },
+  {
+    "name": "pythia-1.3b",
+    "full_name": "EleutherAI/pythia-1.3b",
+    "speed": 18.95,
+    "vram": 1.87
+  },
+  {
+    "name": "pythia-1.4b",
+    "full_name": "EleutherAI/pythia-1.4b",
+    "speed": 18.59,
+    "vram": 1.87
+  },
+  {
+    "name": "gpt-neo-2.7B",
+    "full_name": "EleutherAI/gpt-neo-2.7B",
+    "speed": 22.1,
+    "vram": 2.05
+  },
+  {
+    "name": "pythia-160m",
+    "full_name": "EleutherAI/pythia-160m",
+    "speed": 66.62,
+    "vram": 0.31
+  },
+  {
+    "name": "gpt-j-6b",
+    "full_name": "EleutherAI/gpt-j-6b",
+    "speed": 9.75,
+    "vram": 6.67
+  },
+  {
+    "name": "pythia-70m",
+    "full_name": "EleutherAI/pythia-70m",
+    "speed": 68.11,
+    "vram": 0.19
+  },
+  {
+    "name": "pythia-410m",
+    "full_name": "EleutherAI/pythia-410m",
+    "speed": 33.64,
+    "vram": 0.59
+  },
+  {
+    "name": "pythia-6.7b",
+    "full_name": "EleutherAI/pythia-6.7b",
+    "speed": 25.89,
+    "vram": 5.29
+  },
+  {
+    "name": "pythia-6.7b",
+    "full_name": "EleutherAI/pythia-6.7b",
+    "speed": 14.2,
+    "vram": 7.69
+  },
+  {
+    "name": "gpt-neo-1.3B",
+    "full_name": "EleutherAI/gpt-neo-1.3B",
+    "speed": 29.7,
+    "vram": 1.15
+  },
+  {
+    "name": "pythia-1.3b",
+    "full_name": "EleutherAI/pythia-1.3b",
+    "speed": 33.32,
+    "vram": 1.43
+  },
+  {
+    "name": "pythia-160m",
+    "full_name": "EleutherAI/pythia-160m",
+    "speed": 33.97,
+    "vram": 0.35
+  },
+  {
+    "name": "pythia-1.4b",
+    "full_name": "EleutherAI/pythia-1.4b",
+    "speed": 33.45,
+    "vram": 1.43
+  },
+  {
+    "name": "polyglot-ko-12.8b",
+    "full_name": "EleutherAI/polyglot-ko-12.8b",
+    "speed": 10.52,
+    "vram": 13.85
+  },
+  {
+    "name": "polyglot-ko-12.8b",
+    "full_name": "EleutherAI/polyglot-ko-12.8b",
+    "speed": 20.97,
+    "vram": 8.92
+  },
+  {
+    "name": "polyglot-ko-12.8b",
+    "full_name": "EleutherAI/polyglot-ko-12.8b",
+    "speed": 11.34,
+    "vram": 13.85
+  },
+  {
+    "name": "pythia-6.7b",
+    "full_name": "EleutherAI/pythia-6.7b",
+    "speed": 22.35,
+    "vram": 5.29
+  },
+  {
+    "name": "gpt-neox-20b",
+    "full_name": "EleutherAI/gpt-neox-20b",
+    "speed": 9.89,
+    "vram": 21.78
+  },
+  {
+    "name": "pythia-70m",
+    "full_name": "EleutherAI/pythia-70m",
+    "speed": 108.54,
+    "vram": 0.18
+  },
+  {
+    "name": "pythia-12b",
+    "full_name": "EleutherAI/pythia-12b",
+    "speed": 12.3,
+    "vram": 12.94
+  },
+  {
+    "name": "pythia-12b",
+    "full_name": "EleutherAI/pythia-12b",
+    "speed": 22.15,
+    "vram": 8.55
+  },
+  {
+    "name": "pythia-1.4b",
+    "full_name": "EleutherAI/pythia-1.4b",
+    "speed": 18.41,
+    "vram": 1.87
+  },
+  {
+    "name": "pythia-2.7b",
+    "full_name": "EleutherAI/pythia-2.7b",
+    "speed": 25.34,
+    "vram": 2.42
+  },
+  {
+    "name": "pythia-12b",
+    "full_name": "EleutherAI/pythia-12b",
+    "speed": 19.69,
+    "vram": 8.55
+  },
+  {
+    "name": "gpt-neo-2.7B",
+    "full_name": "EleutherAI/gpt-neo-2.7B",
+    "speed": 11.23,
+    "vram": 3.06
+  },
+  {
+    "name": "pythia-70m",
+    "full_name": "EleutherAI/pythia-70m",
+    "speed": 123.57,
+    "vram": 0.18
+  },
+  {
+    "name": "gpt-neo-125m",
+    "full_name": "EleutherAI/gpt-neo-125m",
+    "speed": 54.86,
+    "vram": 0.22
+  },
+  {
+    "name": "polyglot-ko-12.8b",
+    "full_name": "EleutherAI/polyglot-ko-12.8b",
+    "speed": 20.12,
+    "vram": 8.92
+  },
+  {
+    "name": "gpt-neo-125m",
+    "full_name": "EleutherAI/gpt-neo-125m",
+    "speed": 27.8,
+    "vram": 0.26
+  },
+  {
+    "name": "pythia-70m",
+    "full_name": "EleutherAI/pythia-70m",
+    "speed": 119.27,
+    "vram": 0.18
+  },
+  {
+    "name": "gpt-neox-20b",
+    "full_name": "EleutherAI/gpt-neox-20b",
+    "speed": 9.3,
+    "vram": 21.79
+  },
+  {
+    "name": "pythia-410m",
+    "full_name": "EleutherAI/pythia-410m",
+    "speed": 32.08,
+    "vram": 0.59
+  },
+  {
+    "name": "pythia-160m",
+    "full_name": "EleutherAI/pythia-160m",
+    "speed": 63.63,
+    "vram": 0.31
+  },
+  {
+    "name": "pythia-410m",
+    "full_name": "EleutherAI/pythia-410m",
+    "speed": 18.83,
+    "vram": 0.72
+  },
+  {
+    "name": "pythia-2.7b",
+    "full_name": "EleutherAI/pythia-2.7b",
+    "speed": 25.5,
+    "vram": 2.42
+  },
+  {
+    "name": "pythia-160m",
+    "full_name": "EleutherAI/pythia-160m",
+    "speed": 37.33,
+    "vram": 0.35
+  },
+  {
+    "name": "pythia-70m",
+    "full_name": "EleutherAI/pythia-70m",
+    "speed": 66.32,
+    "vram": 0.19
+  },
+  {
+    "name": "pythia-6.7b",
+    "full_name": "EleutherAI/pythia-6.7b",
+    "speed": 24.53,
+    "vram": 5.29
+  },
+  {
+    "name": "gpt-neox-20b",
+    "full_name": "EleutherAI/gpt-neox-20b",
+    "speed": 9.64,
+    "vram": 21.78
+  },
+  {
+    "name": "gpt-neo-1.3B",
+    "full_name": "EleutherAI/gpt-neo-1.3B",
+    "speed": 33.15,
+    "vram": 1.15
+  },
+  {
+    "name": "pythia-12b",
+    "full_name": "EleutherAI/pythia-12b",
+    "speed": 12.65,
+    "vram": 12.94
+  },
+  {
+    "name": "pythia-160m",
+    "full_name": "EleutherAI/pythia-160m",
+    "speed": 57.12,
+    "vram": 0.31
+  },
+  {
+    "name": "polyglot-ko-12.8b",
+    "full_name": "EleutherAI/polyglot-ko-12.8b",
+    "speed": 18.02,
+    "vram": 8.92
+  },
+  {
+    "name": "pythia-1.3b",
+    "full_name": "EleutherAI/pythia-1.3b",
+    "speed": 29.89,
+    "vram": 1.43
+  },
+  {
+    "name": "pythia-410m",
+    "full_name": "EleutherAI/pythia-410m",
+    "speed": 17.21,
+    "vram": 0.72
+  },
+  {
+    "name": "gpt-j-6b",
+    "full_name": "EleutherAI/gpt-j-6b",
+    "speed": 20.2,
+    "vram": 4.58
+  },
+  {
+    "name": "gpt-j-6b",
+    "full_name": "EleutherAI/gpt-j-6b",
+    "speed": 10.71,
+    "vram": 6.68
+  },
+  {
+    "name": "gpt-neox-20b",
+    "full_name": "EleutherAI/gpt-neox-20b",
+    "speed": 16.72,
+    "vram": 13.98
+  },
+  {
+    "name": "gpt-neox-20b",
+    "full_name": "EleutherAI/gpt-neox-20b",
+    "speed": 16.66,
+    "vram": 13.98
+  },
+  {
+    "name": "pythia-160m",
+    "full_name": "EleutherAI/pythia-160m",
+    "speed": 35.86,
+    "vram": 0.35
+  },
+  {
+    "name": "gpt-neo-125m",
+    "full_name": "EleutherAI/gpt-neo-125m",
+    "speed": 62.99,
+    "vram": 0.22
+  },
+  {
+    "name": "pythia-2.7b",
+    "full_name": "EleutherAI/pythia-2.7b",
+    "speed": 13.71,
+    "vram": 3.44
+  },
+  {
+    "name": "gpt-neo-1.3B",
+    "full_name": "EleutherAI/gpt-neo-1.3B",
+    "speed": 14.03,
+    "vram": 1.59
+  },
+  {
+    "name": "pythia-1.3b",
+    "full_name": "EleutherAI/pythia-1.3b",
+    "speed": 33.96,
+    "vram": 1.43
+  },
+  {
+    "name": "pythia-6.7b",
+    "full_name": "EleutherAI/pythia-6.7b",
+    "speed": 13.2,
+    "vram": 7.7
+  },
+  {
+    "name": "pythia-1.4b",
+    "full_name": "EleutherAI/pythia-1.4b",
+    "speed": 35.06,
+    "vram": 1.43
+  },
+  {
+    "name": "pythia-2.7b",
+    "full_name": "EleutherAI/pythia-2.7b",
+    "speed": 13.82,
+    "vram": 3.44
+  },
+  {
+    "name": "gpt-neo-2.7B",
+    "full_name": "EleutherAI/gpt-neo-2.7B",
+    "speed": 24.98,
+    "vram": 2.05
+  },
+  {
+    "name": "pythia-1.3b",
+    "full_name": "EleutherAI/pythia-1.3b",
+    "speed": 19.2,
+    "vram": 1.87
+  },
+  {
+    "name": "pythia-70m",
+    "full_name": "EleutherAI/pythia-70m",
+    "speed": 71.28,
+    "vram": 0.19
+  },
+  {
+    "name": "pythia-2.7b",
+    "full_name": "EleutherAI/pythia-2.7b",
+    "speed": 13.38,
+    "vram": 3.45
+  },
+  {
+    "name": "pythia-1.4b",
+    "full_name": "EleutherAI/pythia-1.4b",
+    "speed": 17.09,
+    "vram": 1.88
+  },
+  {
+    "name": "pythia-6.7b",
+    "full_name": "EleutherAI/pythia-6.7b",
+    "speed": 14.12,
+    "vram": 7.69
+  },
+  {
+    "name": "gpt-neo-125m",
+    "full_name": "EleutherAI/gpt-neo-125m",
+    "speed": 29.12,
+    "vram": 0.26
+  },
+  {
+    "name": "polyglot-ko-12.8b",
+    "full_name": "EleutherAI/polyglot-ko-12.8b",
+    "speed": 11.1,
+    "vram": 13.84
+  },
+  {
+    "name": "pythia-1.3b",
+    "full_name": "EleutherAI/pythia-1.3b",
+    "speed": 17.56,
+    "vram": 1.88
+  },
+  {
+    "name": "pythia-12b",
+    "full_name": "EleutherAI/pythia-12b",
+    "speed": 22.95,
+    "vram": 8.55
+  },
+  {
+    "name": "gpt-j-6b",
+    "full_name": "EleutherAI/gpt-j-6b",
+    "speed": 17.34,
+    "vram": 4.58
+  },
+  {
+    "name": "pythia-2.7b",
+    "full_name": "EleutherAI/pythia-2.7b",
+    "speed": 22.46,
+    "vram": 2.42
+  },
+  {
+    "name": "dummy-GPT2-correct-vocab",
+    "full_name": "trl-internal-testing/dummy-GPT2-correct-vocab",
+    "speed": 141.7,
+    "vram": 0.04
+  },
+  {
+    "name": "dummy-GPT2-correct-vocab",
+    "full_name": "trl-internal-testing/dummy-GPT2-correct-vocab",
+    "speed": 148.27,
+    "vram": 0.04
+  },
+  {
+    "name": "dummy-GPT2-correct-vocab",
+    "full_name": "trl-internal-testing/dummy-GPT2-correct-vocab",
+    "speed": 142.15,
+    "vram": 0.04
+  },
+  {
+    "name": "dummy-GPT2-correct-vocab",
+    "full_name": "trl-internal-testing/dummy-GPT2-correct-vocab",
+    "speed": 139.04,
+    "vram": 0.04
+  },
+  {
+    "name": "dummy-GPT2-correct-vocab",
+    "full_name": "trl-internal-testing/dummy-GPT2-correct-vocab",
+    "speed": 159.57,
+    "vram": 0.04
+  },
+  {
+    "name": "dummy-GPT2-correct-vocab",
+    "full_name": "trl-internal-testing/dummy-GPT2-correct-vocab",
+    "speed": 149.99,
+    "vram": 0.04
+  },
+  {
+    "name": "Llama-3.1-8B-Instruct",
+    "full_name": "meta-llama/Llama-3.1-8B-Instruct",
+    "speed": 17.99,
+    "vram": 6.32
+  },
+  {
+    "name": "Meta-Llama-3-8B",
+    "full_name": "meta-llama/Meta-Llama-3-8B",
+    "speed": 8.63,
+    "vram": 8.96
+  },
+  {
+    "name": "Meta-Llama-3-8B-Instruct",
+    "full_name": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "speed": 8.4,
+    "vram": 8.96
+  },
+  {
+    "name": "Meta-Llama-3-8B-Instruct",
+    "full_name": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "speed": 8.67,
+    "vram": 8.96
+  },
+  {
+    "name": "Meta-Llama-3-8B-Instruct",
+    "full_name": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "speed": 8.73,
+    "vram": 8.96
+  },
+  {
+    "name": "Meta-Llama-3-8B",
+    "full_name": "meta-llama/Meta-Llama-3-8B",
+    "speed": 17.94,
+    "vram": 6.32
+  },
+  {
+    "name": "Meta-Llama-3-8B",
+    "full_name": "meta-llama/Meta-Llama-3-8B",
+    "speed": 17.53,
+    "vram": 6.32
+  },
+  {
+    "name": "Llama-3.1-8B-Instruct",
+    "full_name": "meta-llama/Llama-3.1-8B-Instruct",
+    "speed": 18.12,
+    "vram": 6.32
+  },
+  {
+    "name": "Meta-Llama-3-8B-Instruct",
+    "full_name": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "speed": 17.83,
+    "vram": 6.32
+  },
+  {
+    "name": "Meta-Llama-3-8B-Instruct",
+    "full_name": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "speed": 18.18,
+    "vram": 6.32
+  },
+  {
+    "name": "Meta-Llama-3-8B",
+    "full_name": "meta-llama/Meta-Llama-3-8B",
+    "speed": 8.62,
+    "vram": 8.96
+  },
+  {
+    "name": "Meta-Llama-3-8B",
+    "full_name": "meta-llama/Meta-Llama-3-8B",
+    "speed": 18.3,
+    "vram": 6.32
+  },
+  {
+    "name": "Llama-3.1-8B-Instruct",
+    "full_name": "meta-llama/Llama-3.1-8B-Instruct",
+    "speed": 8.6,
+    "vram": 8.96
+  },
+  {
+    "name": "Meta-Llama-3-8B-Instruct",
+    "full_name": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "speed": 17.91,
+    "vram": 6.32
+  },
+  {
+    "name": "Llama-3.1-8B-Instruct",
+    "full_name": "meta-llama/Llama-3.1-8B-Instruct",
+    "speed": 17.98,
+    "vram": 6.32
+  },
+  {
+    "name": "Llama-3.1-8B-Instruct",
+    "full_name": "meta-llama/Llama-3.1-8B-Instruct",
+    "speed": 8.82,
+    "vram": 8.96
+  },
+  {
+    "name": "Llama-3.1-8B-Instruct",
+    "full_name": "meta-llama/Llama-3.1-8B-Instruct",
+    "speed": 8.4,
+    "vram": 8.96
+  },
+  {
+    "name": "Meta-Llama-3-8B",
+    "full_name": "meta-llama/Meta-Llama-3-8B",
+    "speed": 8.47,
+    "vram": 8.96
+  },
+  {
+    "name": "DeciLM-7B",
+    "full_name": "Deci/DeciLM-7B",
+    "speed": 9.08,
+    "vram": 7.39
+  },
+  {
+    "name": "DeciLM-7B",
+    "full_name": "Deci/DeciLM-7B",
+    "speed": 19.85,
+    "vram": 4.77
+  },
+  {
+    "name": "DeciLM-7B",
+    "full_name": "Deci/DeciLM-7B",
+    "speed": 19.78,
+    "vram": 4.77
+  },
+  {
+    "name": "DeciLM-7B",
+    "full_name": "Deci/DeciLM-7B",
+    "speed": 8.9,
+    "vram": 7.39
+  },
+  {
+    "name": "Phi-3-mini-4k-instruct",
+    "full_name": "microsoft/Phi-3-mini-4k-instruct",
+    "speed": 20.36,
+    "vram": 2.91
+  },
+  {
+    "name": "Phi-3-mini-4k-instruct",
+    "full_name": "microsoft/Phi-3-mini-4k-instruct",
+    "speed": 11.7,
+    "vram": 4.24
+  },
+  {
+    "name": "Phi-3-mini-4k-instruct",
+    "full_name": "microsoft/Phi-3-mini-4k-instruct",
+    "speed": 11.95,
+    "vram": 4.24
+  },
+  {
+    "name": "Phi-3-mini-4k-instruct",
+    "full_name": "microsoft/Phi-3-mini-4k-instruct",
+    "speed": 20.03,
+    "vram": 2.91
+  },
+  {
+    "name": "distilgpt2",
+    "full_name": "distilbert/distilgpt2",
+    "speed": 74.24,
+    "vram": 0.19
+  },
+  {
+    "name": "distilgpt2",
+    "full_name": "distilbert/distilgpt2",
+    "speed": 130.34,
+    "vram": 0.17
+  },
+  {
+    "name": "distilgpt2",
+    "full_name": "distilbert/distilgpt2",
+    "speed": 69.38,
+    "vram": 0.19
+  },
+  {
+    "name": "distilgpt2",
+    "full_name": "distilbert/distilgpt2",
+    "speed": 75.26,
+    "vram": 0.19
+  },
+  {
+    "name": "distilgpt2",
+    "full_name": "distilbert/distilgpt2",
+    "speed": 129.72,
+    "vram": 0.17
+  },
+  {
+    "name": "distilgpt2",
+    "full_name": "distilbert/distilgpt2",
+    "speed": 120.2,
+    "vram": 0.17
+  },
+  {
+    "name": "zephyr-7b-beta",
+    "full_name": "HuggingFaceH4/zephyr-7b-beta",
+    "speed": 21.3,
+    "vram": 4.79
+  },
+  {
+    "name": "zephyr-7b-beta",
+    "full_name": "HuggingFaceH4/zephyr-7b-beta",
+    "speed": 15.9,
+    "vram": 7.41
+  },
+  {
+    "name": "zephyr-7b-beta",
+    "full_name": "HuggingFaceH4/zephyr-7b-beta",
+    "speed": 20.34,
+    "vram": 4.79
+  },
+  {
+    "name": "zephyr-7b-beta",
+    "full_name": "HuggingFaceH4/zephyr-7b-beta",
+    "speed": 15.65,
+    "vram": 7.41
+  },
+  {
+    "name": "zephyr-7b-beta",
+    "full_name": "HuggingFaceH4/zephyr-7b-beta",
+    "speed": 22.19,
+    "vram": 4.79
+  },
+  {
+    "name": "zephyr-7b-beta",
+    "full_name": "HuggingFaceH4/zephyr-7b-beta",
+    "speed": 16.95,
+    "vram": 7.41
+  },
+  {
+    "name": "phi-1_5",
+    "full_name": "microsoft/phi-1_5",
+    "speed": 21.77,
+    "vram": 1.2
+  },
+  {
+    "name": "pythia-410m",
+    "full_name": "EleutherAI/pythia-410m",
+    "speed": 27.98,
+    "vram": 0.57
+  },
+  {
+    "name": "opt-350m",
+    "full_name": "facebook/opt-350m",
+    "speed": 26.76,
+    "vram": 0.27
+  },
+  {
+    "name": "Yi-34B",
+    "full_name": "01-ai/Yi-34B",
+    "speed": 8.02,
+    "vram": 19.78
+  },
+  {
+    "name": "Qwen1.5-7B",
+    "full_name": "Qwen/Qwen1.5-7B",
+    "speed": 14.82,
+    "vram": 6.7
+  },
+  {
+    "name": "rho-math-1b-v0.1",
+    "full_name": "microsoft/rho-math-1b-v0.1",
+    "speed": 22.43,
+    "vram": 0.86
+  },
+  {
+    "name": "opt-6.7b",
+    "full_name": "facebook/opt-6.7b",
+    "speed": 19.85,
+    "vram": 4.23
+  },
+  {
+    "name": "stablelm-3b-4e1t",
+    "full_name": "stabilityai/stablelm-3b-4e1t",
+    "speed": 17.44,
+    "vram": 2.04
+  },
+  {
+    "name": "gpt-neo-125m",
+    "full_name": "EleutherAI/gpt-neo-125m",
+    "speed": 49.84,
+    "vram": 0.22
+  },
+  {
+    "name": "pythia-6.7b",
+    "full_name": "EleutherAI/pythia-6.7b",
+    "speed": 21.29,
+    "vram": 4.97
+  },
+  {
+    "name": "llama-30b",
+    "full_name": "huggyllama/llama-30b",
+    "speed": 8.3,
+    "vram": 18.44
+  },
+  {
+    "name": "gpt-neo-1.3B",
+    "full_name": "EleutherAI/gpt-neo-1.3B",
+    "speed": 25.39,
+    "vram": 1.09
+  },
+  {
+    "name": "Meta-Llama-3-8B",
+    "full_name": "meta-llama/Meta-Llama-3-8B",
+    "speed": 15.12,
+    "vram": 6.11
+  },
+  {
+    "name": "internlm2-20b",
+    "full_name": "internlm/internlm2-20b",
+    "speed": 11.99,
+    "vram": 13.31
+  },
+  {
+    "name": "Qwen1.5-MoE-A2.7B",
+    "full_name": "Qwen/Qwen1.5-MoE-A2.7B",
+    "speed": 1.61,
+    "vram": 8.75
+  },
+  {
+    "name": "stablelm-base-alpha-7b",
+    "full_name": "stabilityai/stablelm-base-alpha-7b",
+    "speed": 37.41,
+    "vram": 6.34
+  },
+  {
+    "name": "llama-7b",
+    "full_name": "huggyllama/llama-7b",
+    "speed": 15.19,
+    "vram": 4.29
+  },
+  {
+    "name": "stablelm-base-alpha-3b",
+    "full_name": "stabilityai/stablelm-base-alpha-3b",
+    "speed": 40.93,
+    "vram": 3.31
+  },
+  {
+    "name": "DeciLM-7B",
+    "full_name": "Deci/DeciLM-7B",
+    "speed": 15.65,
+    "vram": 4.45
+  },
+  {
+    "name": "opt-30b",
+    "full_name": "facebook/opt-30b",
+    "speed": 10.91,
+    "vram": 17.27
+  },
+  {
+    "name": "opt-13b",
+    "full_name": "facebook/opt-13b",
+    "speed": 16.16,
+    "vram": 7.74
+  },
+  {
+    "name": "opt-125m",
+    "full_name": "facebook/opt-125m",
+    "speed": 50.85,
+    "vram": 0.17
+  },
+  {
+    "name": "Mistral-7B-v0.1",
+    "full_name": "mistralai/Mistral-7B-v0.1",
+    "speed": 15.25,
+    "vram": 4.97
+  },
+  {
+    "name": "stablelm-2-12b",
+    "full_name": "stabilityai/stablelm-2-12b",
+    "speed": 7.45,
+    "vram": 8.22
+  },
+  {
+    "name": "RedPajama-INCITE-Base-3B-v1",
+    "full_name": "togethercomputer/RedPajama-INCITE-Base-3B-v1",
+    "speed": 21.32,
+    "vram": 2.34
+  },
+  {
+    "name": "Llama-2-7b-hf",
+    "full_name": "meta-llama/Llama-2-7b-hf",
+    "speed": 15.54,
+    "vram": 4.32
+  },
+  {
+    "name": "gemma-7b",
+    "full_name": "google/gemma-7b",
+    "speed": 19.13,
+    "vram": 6.42
+  },
+  {
+    "name": "Qwen1.5-14B",
+    "full_name": "Qwen/Qwen1.5-14B",
+    "speed": 12.02,
+    "vram": 10.83
+  },
+  {
+    "name": "Qwen1.5-1.8B",
+    "full_name": "Qwen/Qwen1.5-1.8B",
+    "speed": 19.72,
+    "vram": 2.53
+  },
+  {
+    "name": "pythia-12b",
+    "full_name": "EleutherAI/pythia-12b",
+    "speed": 18.85,
+    "vram": 8.04
+  },
+  {
+    "name": "pythia-160m",
+    "full_name": "EleutherAI/pythia-160m",
+    "speed": 53.67,
+    "vram": 0.31
+  },
+  {
+    "name": "pythia-1.3b",
+    "full_name": "EleutherAI/pythia-1.3b",
+    "speed": 27.83,
+    "vram": 1.37
+  },
+  {
+    "name": "Qwen1.5-32B",
+    "full_name": "Qwen/Qwen1.5-32B",
+    "speed": 6.88,
+    "vram": 20.69
+  },
+  {
+    "name": "internlm-20b",
+    "full_name": "internlm/internlm-20b",
+    "speed": 7.61,
+    "vram": 12.79
+  },
+  {
+    "name": "gpt-neo-2.7B",
+    "full_name": "EleutherAI/gpt-neo-2.7B",
+    "speed": 19.18,
+    "vram": 1.94
+  },
+  {
+    "name": "RedPajama-INCITE-Base-7B-v0.1",
+    "full_name": "togethercomputer/RedPajama-INCITE-Base-7B-v0.1",
+    "speed": 21.29,
+    "vram": 5.02
+  },
+  {
+    "name": "Mistral_Pro_8B_v0.1",
+    "full_name": "TencentARC/Mistral_Pro_8B_v0.1",
+    "speed": 12.0,
+    "vram": 5.99
+  },
+  {
+    "name": "Qwen2-beta-14B",
+    "full_name": "Qwen/Qwen2-beta-14B",
+    "speed": 11.9,
+    "vram": 10.83
+  },
+  {
+    "name": "Qwen1.5-4B",
+    "full_name": "Qwen/Qwen1.5-4B",
+    "speed": 11.77,
+    "vram": 4.16
+  },
+  {
+    "name": "gpt-neox-20b",
+    "full_name": "EleutherAI/gpt-neox-20b",
+    "speed": 14.32,
+    "vram": 13.1
+  },
+  {
+    "name": "Llama-2-13b-hf",
+    "full_name": "meta-llama/Llama-2-13b-hf",
+    "speed": 12.56,
+    "vram": 7.86
+  },
+  {
+    "name": "gpt2-large",
+    "full_name": "openai-community/gpt2-large",
+    "speed": 21.17,
+    "vram": 0.67
+  },
+  {
+    "name": "gpt-j-6b",
+    "full_name": "EleutherAI/gpt-j-6b",
+    "speed": 14.36,
+    "vram": 4.33
+  },
+  {
+    "name": "polyglot-ko-12.8b",
+    "full_name": "EleutherAI/polyglot-ko-12.8b",
+    "speed": 16.9,
+    "vram": 8.36
+  },
+  {
+    "name": "Yi-6B",
+    "full_name": "01-ai/Yi-6B",
+    "speed": 15.04,
+    "vram": 4.24
+  },
+  {
+    "name": "gemma-2b",
+    "full_name": "google/gemma-2b",
+    "speed": 29.28,
+    "vram": 2.51
+  },
+  {
+    "name": "pythia-70m",
+    "full_name": "EleutherAI/pythia-70m",
+    "speed": 101.6,
+    "vram": 0.18
+  },
+  {
+    "name": "gpt2",
+    "full_name": "openai-community/gpt2",
+    "speed": 60.41,
+    "vram": 0.18
+  },
+  {
+    "name": "Qwen1.5-0.5B",
+    "full_name": "Qwen/Qwen1.5-0.5B",
+    "speed": 20.13,
+    "vram": 0.92
+  },
+  {
+    "name": "pythia-1.4b",
+    "full_name": "EleutherAI/pythia-1.4b",
+    "speed": 27.83,
+    "vram": 1.37
+  },
+  {
+    "name": "llama-13b",
+    "full_name": "huggyllama/llama-13b",
+    "speed": 12.39,
+    "vram": 7.82
+  },
+  {
+    "name": "pythia-2.7b",
+    "full_name": "EleutherAI/pythia-2.7b",
+    "speed": 21.16,
+    "vram": 2.3
+  },
+  {
+    "name": "stablelm-2-1_6b",
+    "full_name": "stabilityai/stablelm-2-1_6b",
+    "speed": 21.99,
+    "vram": 1.59
+  },
+  {
+    "name": "opt-2.7b",
+    "full_name": "facebook/opt-2.7b",
+    "speed": 20.32,
+    "vram": 1.8
+  },
+  {
+    "name": "phi-1_5",
+    "full_name": "microsoft/phi-1_5",
+    "speed": 14.02,
+    "vram": 1.73
+  },
+  {
+    "name": "pythia-410m",
+    "full_name": "EleutherAI/pythia-410m",
+    "speed": 18.49,
+    "vram": 0.72
+  },
+  {
+    "name": "opt-350m",
+    "full_name": "facebook/opt-350m",
+    "speed": 15.41,
+    "vram": 0.41
+  },
+  {
+    "name": "Qwen1.5-7B",
+    "full_name": "Qwen/Qwen1.5-7B",
+    "speed": 8.84,
+    "vram": 9.76
+  },
+  {
+    "name": "rho-math-1b-v0.1",
+    "full_name": "microsoft/rho-math-1b-v0.1",
+    "speed": 12.71,
+    "vram": 1.35
+  },
+  {
+    "name": "opt-6.7b",
+    "full_name": "facebook/opt-6.7b",
+    "speed": 11.74,
+    "vram": 6.9
+  },
+  {
+    "name": "stablelm-3b-4e1t",
+    "full_name": "stabilityai/stablelm-3b-4e1t",
+    "speed": 9.5,
+    "vram": 3.11
+  },
+  {
+    "name": "gpt-neo-125m",
+    "full_name": "EleutherAI/gpt-neo-125m",
+    "speed": 27.99,
+    "vram": 0.26
+  },
+  {
+    "name": "pythia-6.7b",
+    "full_name": "EleutherAI/pythia-6.7b",
+    "speed": 13.83,
+    "vram": 7.63
+  },
+  {
+    "name": "gpt-neo-1.3B",
+    "full_name": "EleutherAI/gpt-neo-1.3B",
+    "speed": 14.75,
+    "vram": 1.57
+  },
+  {
+    "name": "Meta-Llama-3-8B",
+    "full_name": "meta-llama/Meta-Llama-3-8B",
+    "speed": 8.77,
+    "vram": 9.24
+  },
+  {
+    "name": "internlm2-20b",
+    "full_name": "internlm/internlm2-20b",
+    "speed": 7.61,
+    "vram": 21.68
+  },
+  {
+    "name": "Qwen1.5-MoE-A2.7B",
+    "full_name": "Qwen/Qwen1.5-MoE-A2.7B",
+    "speed": 1.41,
+    "vram": 15.55
+  },
+  {
+    "name": "stablelm-base-alpha-7b",
+    "full_name": "stabilityai/stablelm-base-alpha-7b",
+    "speed": 26.81,
+    "vram": 8.9
+  },
+  {
+    "name": "llama-7b",
+    "full_name": "huggyllama/llama-7b",
+    "speed": 8.83,
+    "vram": 7.16
+  },
+  {
+    "name": "stablelm-base-alpha-3b",
+    "full_name": "stabilityai/stablelm-base-alpha-3b",
+    "speed": 26.72,
+    "vram": 4.46
+  },
+  {
+    "name": "DeciLM-7B",
+    "full_name": "Deci/DeciLM-7B",
+    "speed": 8.84,
+    "vram": 7.34
+  },
+  {
+    "name": "opt-13b",
+    "full_name": "facebook/opt-13b",
+    "speed": 9.21,
+    "vram": 13.25
+  },
+  {
+    "name": "opt-125m",
+    "full_name": "facebook/opt-125m",
+    "speed": 30.3,
+    "vram": 0.21
+  },
+  {
+    "name": "Mistral-7B-v0.1",
+    "full_name": "mistralai/Mistral-7B-v0.1",
+    "speed": 8.96,
+    "vram": 7.95
+  },
+  {
+    "name": "stablelm-2-12b",
+    "full_name": "stabilityai/stablelm-2-12b",
+    "speed": 5.22,
+    "vram": 13.15
+  },
+  {
+    "name": "RedPajama-INCITE-Base-3B-v1",
+    "full_name": "togethercomputer/RedPajama-INCITE-Base-3B-v1",
+    "speed": 13.82,
+    "vram": 3.45
+  },
+  {
+    "name": "Llama-2-7b-hf",
+    "full_name": "meta-llama/Llama-2-7b-hf",
+    "speed": 8.97,
+    "vram": 7.2
+  },
+  {
+    "name": "gemma-7b",
+    "full_name": "google/gemma-7b",
+    "speed": 9.27,
+    "vram": 9.62
+  },
+  {
+    "name": "Qwen1.5-14B",
+    "full_name": "Qwen/Qwen1.5-14B",
+    "speed": 7.09,
+    "vram": 16.63
+  },
+  {
+    "name": "Qwen1.5-1.8B",
+    "full_name": "Qwen/Qwen1.5-1.8B",
+    "speed": 11.95,
+    "vram": 3.08
+  },
+  {
+    "name": "pythia-12b",
+    "full_name": "EleutherAI/pythia-12b",
+    "speed": 11.97,
+    "vram": 12.84
+  },
+  {
+    "name": "pythia-160m",
+    "full_name": "EleutherAI/pythia-160m",
+    "speed": 35.09,
+    "vram": 0.35
+  },
+  {
+    "name": "pythia-1.3b",
+    "full_name": "EleutherAI/pythia-1.3b",
+    "speed": 18.63,
+    "vram": 1.87
+  },
+  {
+    "name": "internlm-20b",
+    "full_name": "internlm/internlm-20b",
+    "speed": 4.54,
+    "vram": 21.62
+  },
+  {
+    "name": "gpt-neo-2.7B",
+    "full_name": "EleutherAI/gpt-neo-2.7B",
+    "speed": 11.25,
+    "vram": 3.04
+  },
+  {
+    "name": "RedPajama-INCITE-Base-7B-v0.1",
+    "full_name": "togethercomputer/RedPajama-INCITE-Base-7B-v0.1",
+    "speed": 13.86,
+    "vram": 7.69
+  },
+  {
+    "name": "Mistral_Pro_8B_v0.1",
+    "full_name": "TencentARC/Mistral_Pro_8B_v0.1",
+    "speed": 6.92,
+    "vram": 9.79
+  },
+  {
+    "name": "Qwen2-beta-14B",
+    "full_name": "Qwen/Qwen2-beta-14B",
+    "speed": 7.08,
+    "vram": 16.63
+  },
+  {
+    "name": "Qwen1.5-4B",
+    "full_name": "Qwen/Qwen1.5-4B",
+    "speed": 7.07,
+    "vram": 5.62
+  },
+  {
+    "name": "gpt-neox-20b",
+    "full_name": "EleutherAI/gpt-neox-20b",
+    "speed": 9.67,
+    "vram": 21.65
+  },
+  {
+    "name": "Llama-2-13b-hf",
+    "full_name": "meta-llama/Llama-2-13b-hf",
+    "speed": 7.12,
+    "vram": 13.61
+  },
+  {
+    "name": "gpt2-large",
+    "full_name": "openai-community/gpt2-large",
+    "speed": 13.33,
+    "vram": 0.97
+  },
+  {
+    "name": "gpt-j-6b",
+    "full_name": "EleutherAI/gpt-j-6b",
+    "speed": 9.83,
+    "vram": 6.65
+  },
+  {
+    "name": "polyglot-ko-12.8b",
+    "full_name": "EleutherAI/polyglot-ko-12.8b",
+    "speed": 11.21,
+    "vram": 13.76
+  },
+  {
+    "name": "Yi-6B",
+    "full_name": "01-ai/Yi-6B",
+    "speed": 8.9,
+    "vram": 6.72
+  },
+  {
+    "name": "gemma-2b",
+    "full_name": "google/gemma-2b",
+    "speed": 14.56,
+    "vram": 3.36
+  },
+  {
+    "name": "pythia-70m",
+    "full_name": "EleutherAI/pythia-70m",
+    "speed": 68.43,
+    "vram": 0.19
+  },
+  {
+    "name": "gpt2",
+    "full_name": "openai-community/gpt2",
+    "speed": 38.56,
+    "vram": 0.23
+  },
+  {
+    "name": "Qwen1.5-0.5B",
+    "full_name": "Qwen/Qwen1.5-0.5B",
+    "speed": 11.94,
+    "vram": 1.07
+  },
+  {
+    "name": "pythia-1.4b",
+    "full_name": "EleutherAI/pythia-1.4b",
+    "speed": 18.6,
+    "vram": 1.87
+  },
+  {
+    "name": "llama-13b",
+    "full_name": "huggyllama/llama-13b",
+    "speed": 7.21,
+    "vram": 13.57
+  },
+  {
+    "name": "pythia-2.7b",
+    "full_name": "EleutherAI/pythia-2.7b",
+    "speed": 14.1,
+    "vram": 3.42
+  },
+  {
+    "name": "stablelm-2-1_6b",
+    "full_name": "stabilityai/stablelm-2-1_6b",
+    "speed": 12.52,
+    "vram": 2.2
+  },
+  {
+    "name": "opt-2.7b",
+    "full_name": "facebook/opt-2.7b",
+    "speed": 11.97,
+    "vram": 2.91
+  },
+  {
+    "name": "codegen-6B-nl",
+    "full_name": "Salesforce/codegen-6B-nl",
+    "speed": 11.45,
+    "vram": 7.69
+  },
+  {
+    "name": "xglm-7.5B",
+    "full_name": "facebook/xglm-7.5B",
+    "speed": 10.58,
+    "vram": 8.64
+  },
+  {
+    "name": "phi-1_5",
+    "full_name": "microsoft/phi-1_5",
+    "speed": 13.64,
+    "vram": 1.73
+  },
+  {
+    "name": "pythia-410m",
+    "full_name": "EleutherAI/pythia-410m",
+    "speed": 17.53,
+    "vram": 0.71
+  },
+  {
+    "name": "falcon-7b",
+    "full_name": "tiiuae/falcon-7b",
+    "speed": 13.52,
+    "vram": 7.13
+  },
+  {
+    "name": "opt-350m",
+    "full_name": "facebook/opt-350m",
+    "speed": 14.99,
+    "vram": 0.41
+  },
+  {
+    "name": "Qwen1.5-7B",
+    "full_name": "Qwen/Qwen1.5-7B",
+    "speed": 8.93,
+    "vram": 9.76
+  },
+  {
+    "name": "xglm-564M",
+    "full_name": "facebook/xglm-564M",
+    "speed": 14.62,
+    "vram": 0.98
+  },
+  {
+    "name": "falcon-rw-1b",
+    "full_name": "tiiuae/falcon-rw-1b",
+    "speed": 19.32,
+    "vram": 1.52
+  },
+  {
+    "name": "rho-math-1b-v0.1",
+    "full_name": "microsoft/rho-math-1b-v0.1",
+    "speed": 12.53,
+    "vram": 1.35
+  },
+  {
+    "name": "opt-6.7b",
+    "full_name": "facebook/opt-6.7b",
+    "speed": 11.16,
+    "vram": 6.9
+  },
+  {
+    "name": "codegen-16B-nl",
+    "full_name": "Salesforce/codegen-16B-nl",
+    "speed": 11.01,
+    "vram": 16.74
+  },
+  {
+    "name": "stablelm-3b-4e1t",
+    "full_name": "stabilityai/stablelm-3b-4e1t",
+    "speed": 9.37,
+    "vram": 3.12
+  },
+  {
+    "name": "gpt-neo-125m",
+    "full_name": "EleutherAI/gpt-neo-125m",
+    "speed": 27.44,
+    "vram": 0.26
+  },
+  {
+    "name": "pythia-6.7b",
+    "full_name": "EleutherAI/pythia-6.7b",
+    "speed": 13.01,
+    "vram": 7.63
+  },
+  {
+    "name": "gpt-neo-1.3B",
+    "full_name": "EleutherAI/gpt-neo-1.3B",
+    "speed": 13.97,
+    "vram": 1.57
+  },
+  {
+    "name": "Meta-Llama-3-8B",
+    "full_name": "meta-llama/Meta-Llama-3-8B",
+    "speed": 8.4,
+    "vram": 9.24
+  },
+  {
+    "name": "internlm2-20b",
+    "full_name": "internlm/internlm2-20b",
+    "speed": 7.29,
+    "vram": 21.67
+  },
+  {
+    "name": "Qwen1.5-MoE-A2.7B",
+    "full_name": "Qwen/Qwen1.5-MoE-A2.7B",
+    "speed": 1.4,
+    "vram": 15.55
+  },
+  {
+    "name": "stablelm-base-alpha-7b",
+    "full_name": "stabilityai/stablelm-base-alpha-7b",
+    "speed": 24.88,
+    "vram": 8.9
+  },
+  {
+    "name": "llama-7b",
+    "full_name": "huggyllama/llama-7b",
+    "speed": 8.73,
+    "vram": 7.16
+  },
+  {
+    "name": "stablelm-base-alpha-3b",
+    "full_name": "stabilityai/stablelm-base-alpha-3b",
+    "speed": 25.27,
+    "vram": 4.46
+  },
+  {
+    "name": "DeciLM-7B",
+    "full_name": "Deci/DeciLM-7B",
+    "speed": 8.65,
+    "vram": 7.34
+  },
+  {
+    "name": "xglm-4.5B",
+    "full_name": "facebook/xglm-4.5B",
+    "speed": 7.25,
+    "vram": 5.21
+  },
+  {
+    "name": "opt-13b",
+    "full_name": "facebook/opt-13b",
+    "speed": 8.76,
+    "vram": 13.24
+  },
+  {
+    "name": "opt-125m",
+    "full_name": "facebook/opt-125m",
+    "speed": 29.34,
+    "vram": 0.21
+  },
+  {
+    "name": "Mistral-7B-v0.1",
+    "full_name": "mistralai/Mistral-7B-v0.1",
+    "speed": 8.83,
+    "vram": 7.95
+  },
+  {
+    "name": "stablelm-2-12b",
+    "full_name": "stabilityai/stablelm-2-12b",
+    "speed": 4.88,
+    "vram": 13.15
+  },
+  {
+    "name": "RedPajama-INCITE-Base-3B-v1",
+    "full_name": "togethercomputer/RedPajama-INCITE-Base-3B-v1",
+    "speed": 13.17,
+    "vram": 3.45
+  },
+  {
+    "name": "Llama-2-7b-hf",
+    "full_name": "meta-llama/Llama-2-7b-hf",
+    "speed": 8.74,
+    "vram": 7.2
+  },
+  {
+    "name": "gemma-7b",
+    "full_name": "google/gemma-7b",
+    "speed": 9.32,
+    "vram": 9.62
+  },
+  {
+    "name": "Qwen1.5-14B",
+    "full_name": "Qwen/Qwen1.5-14B",
+    "speed": 7.11,
+    "vram": 16.63
+  },
+  {
+    "name": "Qwen1.5-1.8B",
+    "full_name": "Qwen/Qwen1.5-1.8B",
+    "speed": 11.86,
+    "vram": 3.08
+  },
+  {
+    "name": "pythia-12b",
+    "full_name": "EleutherAI/pythia-12b",
+    "speed": 11.54,
+    "vram": 12.84
+  },
+  {
+    "name": "pythia-160m",
+    "full_name": "EleutherAI/pythia-160m",
+    "speed": 34.68,
+    "vram": 0.35
+  },
+  {
+    "name": "pythia-1.3b",
+    "full_name": "EleutherAI/pythia-1.3b",
+    "speed": 17.75,
+    "vram": 1.87
+  },
+  {
+    "name": "internlm-20b",
+    "full_name": "internlm/internlm-20b",
+    "speed": 4.43,
+    "vram": 21.62
+  },
+  {
+    "name": "gpt-neo-2.7B",
+    "full_name": "EleutherAI/gpt-neo-2.7B",
+    "speed": 10.5,
+    "vram": 3.04
+  },
+  {
+    "name": "RedPajama-INCITE-Base-7B-v0.1",
+    "full_name": "togethercomputer/RedPajama-INCITE-Base-7B-v0.1",
+    "speed": 13.11,
+    "vram": 7.69
+  },
+  {
+    "name": "Mistral_Pro_8B_v0.1",
+    "full_name": "TencentARC/Mistral_Pro_8B_v0.1",
+    "speed": 7.13,
+    "vram": 9.79
+  },
+  {
+    "name": "recurrentgemma-2b",
+    "full_name": "google/recurrentgemma-2b",
+    "speed": 10.15,
+    "vram": 3.73
+  },
+  {
+    "name": "Qwen2-beta-14B",
+    "full_name": "Qwen/Qwen2-beta-14B",
+    "speed": 7.06,
+    "vram": 16.63
+  },
+  {
+    "name": "recurrentgemma-9b",
+    "full_name": "google/recurrentgemma-9b",
+    "speed": 7.1,
+    "vram": 9.97
+  },
+  {
+    "name": "Qwen1.5-4B",
+    "full_name": "Qwen/Qwen1.5-4B",
+    "speed": 7.18,
+    "vram": 5.62
+  },
+  {
+    "name": "gpt-neox-20b",
+    "full_name": "EleutherAI/gpt-neox-20b",
+    "speed": 9.22,
+    "vram": 21.65
+  },
+  {
+    "name": "Llama-2-13b-hf",
+    "full_name": "meta-llama/Llama-2-13b-hf",
+    "speed": 6.97,
+    "vram": 13.6
+  },
+  {
+    "name": "gpt2-large",
+    "full_name": "openai-community/gpt2-large",
+    "speed": 12.74,
+    "vram": 0.97
+  },
+  {
+    "name": "gpt-j-6b",
+    "full_name": "EleutherAI/gpt-j-6b",
+    "speed": 10.45,
+    "vram": 6.65
+  },
+  {
+    "name": "polyglot-ko-12.8b",
+    "full_name": "EleutherAI/polyglot-ko-12.8b",
+    "speed": 10.58,
+    "vram": 13.76
+  },
+  {
+    "name": "Yi-6B",
+    "full_name": "01-ai/Yi-6B",
+    "speed": 8.07,
+    "vram": 6.72
+  },
+  {
+    "name": "gemma-2b",
+    "full_name": "google/gemma-2b",
+    "speed": 14.37,
+    "vram": 3.36
+  },
+  {
+    "name": "pythia-70m",
+    "full_name": "EleutherAI/pythia-70m",
+    "speed": 65.93,
+    "vram": 0.19
+  },
+  {
+    "name": "gpt2",
+    "full_name": "openai-community/gpt2",
+    "speed": 37.27,
+    "vram": 0.23
+  },
+  {
+    "name": "Qwen1.5-0.5B",
+    "full_name": "Qwen/Qwen1.5-0.5B",
+    "speed": 11.89,
+    "vram": 1.07
+  },
+  {
+    "name": "pythia-1.4b",
+    "full_name": "EleutherAI/pythia-1.4b",
+    "speed": 17.35,
+    "vram": 1.87
+  },
+  {
+    "name": "llama-13b",
+    "full_name": "huggyllama/llama-13b",
+    "speed": 6.98,
+    "vram": 13.56
+  },
+  {
+    "name": "pythia-2.7b",
+    "full_name": "EleutherAI/pythia-2.7b",
+    "speed": 13.21,
+    "vram": 3.42
+  },
+  {
+    "name": "stablelm-2-1_6b",
+    "full_name": "stabilityai/stablelm-2-1_6b",
+    "speed": 12.43,
+    "vram": 2.2
+  },
+  {
+    "name": "opt-2.7b",
+    "full_name": "facebook/opt-2.7b",
+    "speed": 11.05,
+    "vram": 2.91
+  },
+  {
+    "name": "phi-1_5",
+    "full_name": "microsoft/phi-1_5",
+    "speed": 13.74,
+    "vram": 1.73
+  },
+  {
+    "name": "pythia-410m",
+    "full_name": "EleutherAI/pythia-410m",
+    "speed": 19.03,
+    "vram": 0.72
+  },
+  {
+    "name": "Qwen1.5-7B",
+    "full_name": "Qwen/Qwen1.5-7B",
+    "speed": 9.09,
+    "vram": 9.76
+  },
+  {
+    "name": "rho-math-1b-v0.1",
+    "full_name": "microsoft/rho-math-1b-v0.1",
+    "speed": 12.33,
+    "vram": 1.35
+  },
+  {
+    "name": "stablelm-3b-4e1t",
+    "full_name": "stabilityai/stablelm-3b-4e1t",
+    "speed": 9.67,
+    "vram": 3.11
+  },
+  {
+    "name": "pythia-6.7b",
+    "full_name": "EleutherAI/pythia-6.7b",
+    "speed": 13.81,
+    "vram": 7.63
+  },
+  {
+    "name": "Meta-Llama-3-8B",
+    "full_name": "meta-llama/Meta-Llama-3-8B",
+    "speed": 8.73,
+    "vram": 9.24
+  },
+  {
+    "name": "internlm2-20b",
+    "full_name": "internlm/internlm2-20b",
+    "speed": 7.16,
+    "vram": 20.89
+  },
+  {
+    "name": "Qwen1.5-MoE-A2.7B",
+    "full_name": "Qwen/Qwen1.5-MoE-A2.7B",
+    "speed": 1.41,
+    "vram": 15.55
+  },
+  {
+    "name": "stablelm-base-alpha-7b",
+    "full_name": "stabilityai/stablelm-base-alpha-7b",
+    "speed": 27.41,
+    "vram": 8.9
+  },
+  {
+    "name": "llama-7b",
+    "full_name": "huggyllama/llama-7b",
+    "speed": 9.07,
+    "vram": 7.16
+  },
+  {
+    "name": "stablelm-base-alpha-3b",
+    "full_name": "stabilityai/stablelm-base-alpha-3b",
+    "speed": 25.73,
+    "vram": 4.46
+  },
+  {
+    "name": "Mistral-7B-v0.1",
+    "full_name": "mistralai/Mistral-7B-v0.1",
+    "speed": 9.15,
+    "vram": 7.95
+  },
+  {
+    "name": "stablelm-2-12b",
+    "full_name": "stabilityai/stablelm-2-12b",
+    "speed": 5.12,
+    "vram": 13.15
+  },
+  {
+    "name": "RedPajama-INCITE-Base-3B-v1",
+    "full_name": "togethercomputer/RedPajama-INCITE-Base-3B-v1",
+    "speed": 14.09,
+    "vram": 3.45
+  },
+  {
+    "name": "Llama-2-7b-hf",
+    "full_name": "meta-llama/Llama-2-7b-hf",
+    "speed": 9.05,
+    "vram": 7.2
+  },
+  {
+    "name": "gemma-7b",
+    "full_name": "google/gemma-7b",
+    "speed": 9.62,
+    "vram": 9.62
+  },
+  {
+    "name": "Qwen1.5-14B",
+    "full_name": "Qwen/Qwen1.5-14B",
+    "speed": 7.23,
+    "vram": 16.63
+  },
+  {
+    "name": "Qwen1.5-1.8B",
+    "full_name": "Qwen/Qwen1.5-1.8B",
+    "speed": 12.04,
+    "vram": 3.08
+  },
+  {
+    "name": "pythia-12b",
+    "full_name": "EleutherAI/pythia-12b",
+    "speed": 12.57,
+    "vram": 12.84
+  },
+  {
+    "name": "pythia-160m",
+    "full_name": "EleutherAI/pythia-160m",
+    "speed": 37.18,
+    "vram": 0.35
+  },
+  {
+    "name": "pythia-1.3b",
+    "full_name": "EleutherAI/pythia-1.3b",
+    "speed": 18.61,
+    "vram": 1.87
+  },
+  {
+    "name": "RedPajama-INCITE-Base-7B-v0.1",
+    "full_name": "togethercomputer/RedPajama-INCITE-Base-7B-v0.1",
+    "speed": 14.14,
+    "vram": 7.69
+  },
+  {
+    "name": "Mistral_Pro_8B_v0.1",
+    "full_name": "TencentARC/Mistral_Pro_8B_v0.1",
+    "speed": 7.03,
+    "vram": 9.79
+  },
+  {
+    "name": "Qwen2-beta-14B",
+    "full_name": "Qwen/Qwen2-beta-14B",
+    "speed": 7.2,
+    "vram": 16.63
+  },
+  {
+    "name": "Qwen1.5-4B",
+    "full_name": "Qwen/Qwen1.5-4B",
+    "speed": 7.25,
+    "vram": 5.62
+  },
+  {
+    "name": "gpt-neox-20b",
+    "full_name": "EleutherAI/gpt-neox-20b",
+    "speed": 9.82,
+    "vram": 21.65
+  },
+  {
+    "name": "Llama-2-13b-hf",
+    "full_name": "meta-llama/Llama-2-13b-hf",
+    "speed": 7.11,
+    "vram": 13.61
+  },
+  {
+    "name": "gpt2-large",
+    "full_name": "openai-community/gpt2-large",
+    "speed": 13.76,
+    "vram": 0.97
+  },
+  {
+    "name": "polyglot-ko-12.8b",
+    "full_name": "EleutherAI/polyglot-ko-12.8b",
+    "speed": 11.26,
+    "vram": 13.75
+  },
+  {
+    "name": "Yi-6B",
+    "full_name": "01-ai/Yi-6B",
+    "speed": 8.66,
+    "vram": 6.72
+  },
+  {
+    "name": "gemma-2b",
+    "full_name": "google/gemma-2b",
+    "speed": 14.95,
+    "vram": 3.36
+  },
+  {
+    "name": "pythia-70m",
+    "full_name": "EleutherAI/pythia-70m",
+    "speed": 70.02,
+    "vram": 0.19
+  },
+  {
+    "name": "gpt2",
+    "full_name": "openai-community/gpt2",
+    "speed": 40.22,
+    "vram": 0.23
+  },
+  {
+    "name": "Qwen1.5-0.5B",
+    "full_name": "Qwen/Qwen1.5-0.5B",
+    "speed": 12.26,
+    "vram": 1.07
+  },
+  {
+    "name": "pythia-1.4b",
+    "full_name": "EleutherAI/pythia-1.4b",
+    "speed": 18.92,
+    "vram": 1.87
+  },
+  {
+    "name": "llama-13b",
+    "full_name": "huggyllama/llama-13b",
+    "speed": 7.3,
+    "vram": 13.57
+  },
+  {
+    "name": "pythia-2.7b",
+    "full_name": "EleutherAI/pythia-2.7b",
+    "speed": 13.89,
+    "vram": 3.42
+  },
+  {
+    "name": "stablelm-2-1_6b",
+    "full_name": "stabilityai/stablelm-2-1_6b",
+    "speed": 12.51,
+    "vram": 2.2
+  },
+  {
+    "name": "phi-1_5",
+    "full_name": "microsoft/phi-1_5",
+    "speed": 22.8,
+    "vram": 1.2
+  },
+  {
+    "name": "pythia-410m",
+    "full_name": "EleutherAI/pythia-410m",
+    "speed": 29.35,
+    "vram": 0.57
+  },
+  {
+    "name": "Yi-34B",
+    "full_name": "01-ai/Yi-34B",
+    "speed": 7.84,
+    "vram": 19.78
+  },
+  {
+    "name": "Qwen1.5-7B",
+    "full_name": "Qwen/Qwen1.5-7B",
+    "speed": 15.48,
+    "vram": 6.7
+  },
+  {
+    "name": "rho-math-1b-v0.1",
+    "full_name": "microsoft/rho-math-1b-v0.1",
+    "speed": 21.26,
+    "vram": 0.86
+  },
+  {
+    "name": "stablelm-3b-4e1t",
+    "full_name": "stabilityai/stablelm-3b-4e1t",
+    "speed": 17.67,
+    "vram": 2.04
+  },
+  {
+    "name": "pythia-6.7b",
+    "full_name": "EleutherAI/pythia-6.7b",
+    "speed": 21.82,
+    "vram": 4.97
+  },
+  {
+    "name": "llama-30b",
+    "full_name": "huggyllama/llama-30b",
+    "speed": 8.4,
+    "vram": 18.44
+  },
+  {
+    "name": "Meta-Llama-3-8B",
+    "full_name": "meta-llama/Meta-Llama-3-8B",
+    "speed": 15.09,
+    "vram": 6.11
+  },
+  {
+    "name": "internlm2-20b",
+    "full_name": "internlm/internlm2-20b",
+    "speed": 11.47,
+    "vram": 12.52
+  },
+  {
+    "name": "Qwen1.5-MoE-A2.7B",
+    "full_name": "Qwen/Qwen1.5-MoE-A2.7B",
+    "speed": 1.66,
+    "vram": 8.75
+  },
+  {
+    "name": "stablelm-base-alpha-7b",
+    "full_name": "stabilityai/stablelm-base-alpha-7b",
+    "speed": 38.34,
+    "vram": 6.34
+  },
+  {
+    "name": "llama-7b",
+    "full_name": "huggyllama/llama-7b",
+    "speed": 15.48,
+    "vram": 4.29
+  },
+  {
+    "name": "stablelm-base-alpha-3b",
+    "full_name": "stabilityai/stablelm-base-alpha-3b",
+    "speed": 41.92,
+    "vram": 3.31
+  },
+  {
+    "name": "Mistral-7B-v0.1",
+    "full_name": "mistralai/Mistral-7B-v0.1",
+    "speed": 15.94,
+    "vram": 4.97
+  },
+  {
+    "name": "stablelm-2-12b",
+    "full_name": "stabilityai/stablelm-2-12b",
+    "speed": 7.34,
+    "vram": 8.22
+  },
+  {
+    "name": "RedPajama-INCITE-Base-3B-v1",
+    "full_name": "togethercomputer/RedPajama-INCITE-Base-3B-v1",
+    "speed": 22.14,
+    "vram": 2.34
+  },
+  {
+    "name": "Llama-2-7b-hf",
+    "full_name": "meta-llama/Llama-2-7b-hf",
+    "speed": 16.04,
+    "vram": 4.32
+  },
+  {
+    "name": "gemma-7b",
+    "full_name": "google/gemma-7b",
+    "speed": 20.14,
+    "vram": 6.42
+  },
+  {
+    "name": "Qwen1.5-14B",
+    "full_name": "Qwen/Qwen1.5-14B",
+    "speed": 12.63,
+    "vram": 10.83
+  },
+  {
+    "name": "Qwen1.5-1.8B",
+    "full_name": "Qwen/Qwen1.5-1.8B",
+    "speed": 20.05,
+    "vram": 2.53
+  },
+  {
+    "name": "pythia-12b",
+    "full_name": "EleutherAI/pythia-12b",
+    "speed": 19.45,
+    "vram": 8.04
+  },
+  {
+    "name": "pythia-160m",
+    "full_name": "EleutherAI/pythia-160m",
+    "speed": 54.79,
+    "vram": 0.31
+  },
+  {
+    "name": "pythia-1.3b",
+    "full_name": "EleutherAI/pythia-1.3b",
+    "speed": 29.16,
+    "vram": 1.37
+  },
+  {
+    "name": "Qwen1.5-32B",
+    "full_name": "Qwen/Qwen1.5-32B",
+    "speed": 7.58,
+    "vram": 20.69
+  },
+  {
+    "name": "RedPajama-INCITE-Base-7B-v0.1",
+    "full_name": "togethercomputer/RedPajama-INCITE-Base-7B-v0.1",
+    "speed": 21.73,
+    "vram": 5.02
+  },
+  {
+    "name": "Mistral_Pro_8B_v0.1",
+    "full_name": "TencentARC/Mistral_Pro_8B_v0.1",
+    "speed": 12.56,
+    "vram": 5.99
+  },
+  {
+    "name": "Qwen2-beta-14B",
+    "full_name": "Qwen/Qwen2-beta-14B",
+    "speed": 12.56,
+    "vram": 10.83
+  },
+  {
+    "name": "Qwen1.5-4B",
+    "full_name": "Qwen/Qwen1.5-4B",
+    "speed": 12.64,
+    "vram": 4.16
+  },
+  {
+    "name": "gpt-neox-20b",
+    "full_name": "EleutherAI/gpt-neox-20b",
+    "speed": 14.61,
+    "vram": 13.1
+  },
+  {
+    "name": "Llama-2-13b-hf",
+    "full_name": "meta-llama/Llama-2-13b-hf",
+    "speed": 12.41,
+    "vram": 7.86
+  },
+  {
+    "name": "gpt2-large",
+    "full_name": "openai-community/gpt2-large",
+    "speed": 21.81,
+    "vram": 0.67
+  },
+  {
+    "name": "polyglot-ko-12.8b",
+    "full_name": "EleutherAI/polyglot-ko-12.8b",
+    "speed": 17.71,
+    "vram": 8.36
+  },
+  {
+    "name": "Yi-6B",
+    "full_name": "01-ai/Yi-6B",
+    "speed": 14.86,
+    "vram": 4.24
+  },
+  {
+    "name": "gemma-2b",
+    "full_name": "google/gemma-2b",
+    "speed": 30.07,
+    "vram": 2.51
+  },
+  {
+    "name": "pythia-70m",
+    "full_name": "EleutherAI/pythia-70m",
+    "speed": 106.41,
+    "vram": 0.18
+  },
+  {
+    "name": "gpt2",
+    "full_name": "openai-community/gpt2",
+    "speed": 63.65,
+    "vram": 0.18
+  },
+  {
+    "name": "Qwen1.5-0.5B",
+    "full_name": "Qwen/Qwen1.5-0.5B",
+    "speed": 21.13,
+    "vram": 0.92
+  },
+  {
+    "name": "pythia-1.4b",
+    "full_name": "EleutherAI/pythia-1.4b",
+    "speed": 29.03,
+    "vram": 1.37
+  },
+  {
+    "name": "llama-13b",
+    "full_name": "huggyllama/llama-13b",
+    "speed": 12.45,
+    "vram": 7.82
+  },
+  {
+    "name": "pythia-2.7b",
+    "full_name": "EleutherAI/pythia-2.7b",
+    "speed": 21.8,
+    "vram": 2.3
+  },
+  {
+    "name": "stablelm-2-1_6b",
+    "full_name": "stabilityai/stablelm-2-1_6b",
+    "speed": 22.04,
+    "vram": 1.59
+  },
+  {
+    "name": "bloomz-560m",
+    "full_name": "bigscience/bloomz-560m",
+    "speed": 34.31,
+    "vram": 0.98
+  },
+  {
+    "name": "bloomz-560m",
+    "full_name": "bigscience/bloomz-560m",
+    "speed": 18.34,
+    "vram": 1.12
+  },
+  {
+    "name": "gpt2-small-spanish",
+    "full_name": "datificate/gpt2-small-spanish",
+    "speed": 71.52,
+    "vram": 0.22
+  },
+  {
+    "name": "gpt2-small-spanish",
+    "full_name": "datificate/gpt2-small-spanish",
+    "speed": 83.27,
+    "vram": 0.19
+  },
+  {
+    "name": "gpt2-small-spanish",
+    "full_name": "datificate/gpt2-small-spanish",
+    "speed": 84.67,
+    "vram": 0.19
+  },
+  {
+    "name": "gpt2-small-spanish",
+    "full_name": "datificate/gpt2-small-spanish",
+    "speed": 79.04,
+    "vram": 0.22
+  },
+  {
+    "name": "gpt2-small-spanish",
+    "full_name": "datificate/gpt2-small-spanish",
+    "speed": 92.15,
+    "vram": 0.19
+  },
+  {
+    "name": "gpt2-small-spanish",
+    "full_name": "datificate/gpt2-small-spanish",
+    "speed": 67.31,
+    "vram": 0.22
+  },
+  {
+    "name": "codegen-6B-nl",
+    "full_name": "Salesforce/codegen-6B-nl",
+    "speed": 16.47,
+    "vram": 4.89
+  },
+  {
+    "name": "xglm-7.5B",
+    "full_name": "facebook/xglm-7.5B",
+    "speed": 17.78,
+    "vram": 5.88
+  },
+  {
+    "name": "phi-1_5",
+    "full_name": "microsoft/phi-1_5",
+    "speed": 22.29,
+    "vram": 1.2
+  },
+  {
+    "name": "pythia-410m",
+    "full_name": "EleutherAI/pythia-410m",
+    "speed": 26.39,
+    "vram": 0.57
+  },
+  {
+    "name": "falcon-7b",
+    "full_name": "tiiuae/falcon-7b",
+    "speed": 21.99,
+    "vram": 4.5
+  },
+  {
+    "name": "opt-350m",
+    "full_name": "facebook/opt-350m",
+    "speed": 24.89,
+    "vram": 0.27
+  },
+  {
+    "name": "Yi-34B",
+    "full_name": "01-ai/Yi-34B",
+    "speed": 7.73,
+    "vram": 19.78
+  },
+  {
+    "name": "Qwen1.5-7B",
+    "full_name": "Qwen/Qwen1.5-7B",
+    "speed": 14.58,
+    "vram": 6.7
+  },
+  {
+    "name": "xglm-564M",
+    "full_name": "facebook/xglm-564M",
+    "speed": 24.7,
+    "vram": 0.83
+  },
+  {
+    "name": "falcon-rw-1b",
+    "full_name": "tiiuae/falcon-rw-1b",
+    "speed": 29.12,
+    "vram": 1.02
+  },
+  {
+    "name": "rho-math-1b-v0.1",
+    "full_name": "microsoft/rho-math-1b-v0.1",
+    "speed": 20.54,
+    "vram": 0.86
+  },
+  {
+    "name": "opt-6.7b",
+    "full_name": "facebook/opt-6.7b",
+    "speed": 18.55,
+    "vram": 4.23
+  },
+  {
+    "name": "codegen-16B-nl",
+    "full_name": "Salesforce/codegen-16B-nl",
+    "speed": 15.35,
+    "vram": 10.32
+  },
+  {
+    "name": "stablelm-3b-4e1t",
+    "full_name": "stabilityai/stablelm-3b-4e1t",
+    "speed": 16.48,
+    "vram": 2.04
+  },
+  {
+    "name": "gpt-neo-125m",
+    "full_name": "EleutherAI/gpt-neo-125m",
+    "speed": 45.04,
+    "vram": 0.22
+  },
+  {
+    "name": "pythia-6.7b",
+    "full_name": "EleutherAI/pythia-6.7b",
+    "speed": 19.53,
+    "vram": 4.97
+  },
+  {
+    "name": "llama-30b",
+    "full_name": "huggyllama/llama-30b",
+    "speed": 8.07,
+    "vram": 18.44
+  },
+  {
+    "name": "gpt-neo-1.3B",
+    "full_name": "EleutherAI/gpt-neo-1.3B",
+    "speed": 22.75,
+    "vram": 1.09
+  },
+  {
+    "name": "Meta-Llama-3-8B",
+    "full_name": "meta-llama/Meta-Llama-3-8B",
+    "speed": 13.84,
+    "vram": 6.11
+  },
+  {
+    "name": "internlm2-20b",
+    "full_name": "internlm/internlm2-20b",
+    "speed": 11.74,
+    "vram": 13.31
+  },
+  {
+    "name": "Qwen1.5-MoE-A2.7B",
+    "full_name": "Qwen/Qwen1.5-MoE-A2.7B",
+    "speed": 1.64,
+    "vram": 8.75
+  },
+  {
+    "name": "stablelm-base-alpha-7b",
+    "full_name": "stabilityai/stablelm-base-alpha-7b",
+    "speed": 31.4,
+    "vram": 6.34
+  },
+  {
+    "name": "llama-7b",
+    "full_name": "huggyllama/llama-7b",
+    "speed": 14.96,
+    "vram": 4.29
+  },
+  {
+    "name": "stablelm-base-alpha-3b",
+    "full_name": "stabilityai/stablelm-base-alpha-3b",
+    "speed": 37.03,
+    "vram": 3.31
+  },
+  {
+    "name": "DeciLM-7B",
+    "full_name": "Deci/DeciLM-7B",
+    "speed": 15.81,
+    "vram": 4.45
+  },
+  {
+    "name": "xglm-4.5B",
+    "full_name": "facebook/xglm-4.5B",
+    "speed": 12.45,
+    "vram": 3.4
+  },
+  {
+    "name": "opt-30b",
+    "full_name": "facebook/opt-30b",
+    "speed": 9.47,
+    "vram": 17.27
+  },
+  {
+    "name": "opt-13b",
+    "full_name": "facebook/opt-13b",
+    "speed": 14.99,
+    "vram": 7.74
+  },
+  {
+    "name": "opt-125m",
+    "full_name": "facebook/opt-125m",
+    "speed": 49.14,
+    "vram": 0.17
+  },
+  {
+    "name": "Mistral-7B-v0.1",
+    "full_name": "mistralai/Mistral-7B-v0.1",
+    "speed": 15.69,
+    "vram": 4.97
+  },
+  {
+    "name": "stablelm-2-12b",
+    "full_name": "stabilityai/stablelm-2-12b",
+    "speed": 7.11,
+    "vram": 8.22
+  },
+  {
+    "name": "RedPajama-INCITE-Base-3B-v1",
+    "full_name": "togethercomputer/RedPajama-INCITE-Base-3B-v1",
+    "speed": 19.54,
+    "vram": 2.34
+  },
+  {
+    "name": "Llama-2-7b-hf",
+    "full_name": "meta-llama/Llama-2-7b-hf",
+    "speed": 14.91,
+    "vram": 4.32
+  },
+  {
+    "name": "gemma-7b",
+    "full_name": "google/gemma-7b",
+    "speed": 19.12,
+    "vram": 6.42
+  },
+  {
+    "name": "Qwen1.5-14B",
+    "full_name": "Qwen/Qwen1.5-14B",
+    "speed": 11.91,
+    "vram": 10.83
+  },
+  {
+    "name": "Qwen1.5-1.8B",
+    "full_name": "Qwen/Qwen1.5-1.8B",
+    "speed": 19.43,
+    "vram": 2.53
+  },
+  {
+    "name": "pythia-12b",
+    "full_name": "EleutherAI/pythia-12b",
+    "speed": 17.4,
+    "vram": 8.04
+  },
+  {
+    "name": "pythia-160m",
+    "full_name": "EleutherAI/pythia-160m",
+    "speed": 51.52,
+    "vram": 0.31
+  },
+  {
+    "name": "pythia-1.3b",
+    "full_name": "EleutherAI/pythia-1.3b",
+    "speed": 25.84,
+    "vram": 1.37
+  },
+  {
+    "name": "Qwen1.5-32B",
+    "full_name": "Qwen/Qwen1.5-32B",
+    "speed": 7.11,
+    "vram": 20.69
+  },
+  {
+    "name": "internlm-20b",
+    "full_name": "internlm/internlm-20b",
+    "speed": 7.37,
+    "vram": 12.79
+  },
+  {
+    "name": "gpt-neo-2.7B",
+    "full_name": "EleutherAI/gpt-neo-2.7B",
+    "speed": 17.72,
+    "vram": 1.94
+  },
+  {
+    "name": "RedPajama-INCITE-Base-7B-v0.1",
+    "full_name": "togethercomputer/RedPajama-INCITE-Base-7B-v0.1",
+    "speed": 19.28,
+    "vram": 5.02
+  },
+  {
+    "name": "Mistral_Pro_8B_v0.1",
+    "full_name": "TencentARC/Mistral_Pro_8B_v0.1",
+    "speed": 12.08,
+    "vram": 5.99
+  },
+  {
+    "name": "recurrentgemma-2b",
+    "full_name": "google/recurrentgemma-2b",
+    "speed": 18.55,
+    "vram": 2.9
+  },
+  {
+    "name": "Qwen2-beta-14B",
+    "full_name": "Qwen/Qwen2-beta-14B",
+    "speed": 11.88,
+    "vram": 10.83
+  },
+  {
+    "name": "recurrentgemma-9b",
+    "full_name": "google/recurrentgemma-9b",
+    "speed": 12.63,
+    "vram": 6.79
+  },
+  {
+    "name": "Qwen1.5-4B",
+    "full_name": "Qwen/Qwen1.5-4B",
+    "speed": 12.23,
+    "vram": 4.16
+  },
+  {
+    "name": "gpt-neox-20b",
+    "full_name": "EleutherAI/gpt-neox-20b",
+    "speed": 11.96,
+    "vram": 13.1
+  },
+  {
+    "name": "Llama-2-13b-hf",
+    "full_name": "meta-llama/Llama-2-13b-hf",
+    "speed": 12.19,
+    "vram": 7.86
+  },
+  {
+    "name": "gpt2-large",
+    "full_name": "openai-community/gpt2-large",
+    "speed": 19.91,
+    "vram": 0.67
+  },
+  {
+    "name": "gpt-j-6b",
+    "full_name": "EleutherAI/gpt-j-6b",
+    "speed": 16.69,
+    "vram": 4.33
+  },
+  {
+    "name": "polyglot-ko-12.8b",
+    "full_name": "EleutherAI/polyglot-ko-12.8b",
+    "speed": 15.66,
+    "vram": 8.36
+  },
+  {
+    "name": "Yi-6B",
+    "full_name": "01-ai/Yi-6B",
+    "speed": 14.2,
+    "vram": 4.24
+  },
+  {
+    "name": "gemma-2b",
+    "full_name": "google/gemma-2b",
+    "speed": 28.97,
+    "vram": 2.51
+  },
+  {
+    "name": "pythia-70m",
+    "full_name": "EleutherAI/pythia-70m",
+    "speed": 94.55,
+    "vram": 0.18
+  },
+  {
+    "name": "gpt2",
+    "full_name": "openai-community/gpt2",
+    "speed": 55.78,
+    "vram": 0.18
+  },
+  {
+    "name": "Qwen1.5-0.5B",
+    "full_name": "Qwen/Qwen1.5-0.5B",
+    "speed": 20.15,
+    "vram": 0.92
+  },
+  {
+    "name": "pythia-1.4b",
+    "full_name": "EleutherAI/pythia-1.4b",
+    "speed": 26.24,
+    "vram": 1.37
+  },
+  {
+    "name": "llama-13b",
+    "full_name": "huggyllama/llama-13b",
+    "speed": 12.18,
+    "vram": 7.82
+  },
+  {
+    "name": "pythia-2.7b",
+    "full_name": "EleutherAI/pythia-2.7b",
+    "speed": 19.76,
+    "vram": 2.3
+  },
+  {
+    "name": "stablelm-2-1_6b",
+    "full_name": "stabilityai/stablelm-2-1_6b",
+    "speed": 21.04,
+    "vram": 1.59
+  },
+  {
+    "name": "opt-2.7b",
+    "full_name": "facebook/opt-2.7b",
+    "speed": 18.63,
+    "vram": 1.8
+  },
+  {
+    "name": "gemma-2-2b",
+    "full_name": "google/gemma-2-2b",
+    "speed": 8.26,
+    "vram": 3.21
+  },
+  {
+    "name": "gemma-2-2b",
+    "full_name": "google/gemma-2-2b",
+    "speed": 13.94,
+    "vram": 2.5
+  },
+  {
+    "name": "gemma-2-2b",
+    "full_name": "google/gemma-2-2b",
+    "speed": 15.96,
+    "vram": 2.5
+  },
+  {
+    "name": "gemma-2-2b",
+    "full_name": "google/gemma-2-2b",
+    "speed": 16.37,
+    "vram": 2.5
+  },
+  {
+    "name": "gemma-2-2b",
+    "full_name": "google/gemma-2-2b",
+    "speed": 8.98,
+    "vram": 3.21
+  },
+  {
+    "name": "gemma-2-2b",
+    "full_name": "google/gemma-2-2b",
+    "speed": 9.0,
+    "vram": 3.21
+  },
+  {
+    "name": "Qwen1.5-14B",
+    "full_name": "Qwen/Qwen1.5-14B",
+    "speed": 6.88,
+    "vram": 16.63
+  },
+  {
+    "name": "Qwen1.5-0.5B",
+    "full_name": "Qwen/Qwen1.5-0.5B",
+    "speed": 24.5,
+    "vram": 0.94
+  },
+  {
+    "name": "Qwen1.5-1.8B",
+    "full_name": "Qwen/Qwen1.5-1.8B",
+    "speed": 23.79,
+    "vram": 2.58
+  },
+  {
+    "name": "Qwen1.5-14B",
+    "full_name": "Qwen/Qwen1.5-14B",
+    "speed": 7.03,
+    "vram": 16.63
+  },
+  {
+    "name": "Qwen1.5-1.8B",
+    "full_name": "Qwen/Qwen1.5-1.8B",
+    "speed": 11.97,
+    "vram": 3.08
+  },
+  {
+    "name": "Qwen1.5-7B",
+    "full_name": "Qwen/Qwen1.5-7B",
+    "speed": 17.93,
+    "vram": 6.99
+  },
+  {
+    "name": "Qwen1.5-0.5B",
+    "full_name": "Qwen/Qwen1.5-0.5B",
+    "speed": 11.48,
+    "vram": 1.07
+  },
+  {
+    "name": "Qwen2-0.5B",
+    "full_name": "Qwen/Qwen2-0.5B",
+    "speed": 29.38,
+    "vram": 0.51
+  },
+  {
+    "name": "Qwen1.5-4B",
+    "full_name": "Qwen/Qwen1.5-4B",
+    "speed": 13.99,
+    "vram": 4.28
+  },
+  {
+    "name": "Qwen2-0.5B",
+    "full_name": "Qwen/Qwen2-0.5B",
+    "speed": 30.4,
+    "vram": 0.51
+  },
+  {
+    "name": "Qwen1.5-14B",
+    "full_name": "Qwen/Qwen1.5-14B",
+    "speed": 15.39,
+    "vram": 11.35
+  },
+  {
+    "name": "Qwen1.5-32B",
+    "full_name": "Qwen/Qwen1.5-32B",
+    "speed": 8.81,
+    "vram": 22.08
+  },
+  {
+    "name": "Qwen1.5-7B",
+    "full_name": "Qwen/Qwen1.5-7B",
+    "speed": 17.98,
+    "vram": 6.99
+  },
+  {
+    "name": "Qwen1.5-32B",
+    "full_name": "Qwen/Qwen1.5-32B",
+    "speed": 7.63,
+    "vram": 22.08
+  },
+  {
+    "name": "Qwen1.5-14B",
+    "full_name": "Qwen/Qwen1.5-14B",
+    "speed": 14.04,
+    "vram": 11.35
+  },
+  {
+    "name": "Qwen1.5-4B",
+    "full_name": "Qwen/Qwen1.5-4B",
+    "speed": 14.85,
+    "vram": 4.28
+  },
+  {
+    "name": "Qwen1.5-4B",
+    "full_name": "Qwen/Qwen1.5-4B",
+    "speed": 15.49,
+    "vram": 4.28
+  },
+  {
+    "name": "Qwen1.5-4B",
+    "full_name": "Qwen/Qwen1.5-4B",
+    "speed": 6.98,
+    "vram": 5.62
+  },
+  {
+    "name": "Qwen1.5-MoE-A2.7B",
+    "full_name": "Qwen/Qwen1.5-MoE-A2.7B",
+    "speed": 1.74,
+    "vram": 9.37
+  },
+  {
+    "name": "Qwen1.5-7B",
+    "full_name": "Qwen/Qwen1.5-7B",
+    "speed": 18.91,
+    "vram": 6.99
+  },
+  {
+    "name": "Qwen1.5-32B",
+    "full_name": "Qwen/Qwen1.5-32B",
+    "speed": 9.31,
+    "vram": 22.08
+  },
+  {
+    "name": "Qwen1.5-7B",
+    "full_name": "Qwen/Qwen1.5-7B",
+    "speed": 8.77,
+    "vram": 9.76
+  },
+  {
+    "name": "Qwen1.5-0.5B",
+    "full_name": "Qwen/Qwen1.5-0.5B",
+    "speed": 11.96,
+    "vram": 1.07
+  },
+  {
+    "name": "Qwen1.5-14B",
+    "full_name": "Qwen/Qwen1.5-14B",
+    "speed": 7.26,
+    "vram": 16.63
+  },
+  {
+    "name": "Qwen2-0.5B",
+    "full_name": "Qwen/Qwen2-0.5B",
+    "speed": 22.91,
+    "vram": 0.64
+  },
+  {
+    "name": "Qwen1.5-4B",
+    "full_name": "Qwen/Qwen1.5-4B",
+    "speed": 7.13,
+    "vram": 5.62
+  },
+  {
+    "name": "Qwen1.5-7B",
+    "full_name": "Qwen/Qwen1.5-7B",
+    "speed": 9.11,
+    "vram": 9.76
+  },
+  {
+    "name": "Qwen2-0.5B",
+    "full_name": "Qwen/Qwen2-0.5B",
+    "speed": 23.62,
+    "vram": 0.64
+  },
+  {
+    "name": "Qwen1.5-1.8B",
+    "full_name": "Qwen/Qwen1.5-1.8B",
+    "speed": 11.53,
+    "vram": 3.08
+  },
+  {
+    "name": "Qwen1.5-0.5B",
+    "full_name": "Qwen/Qwen1.5-0.5B",
+    "speed": 26.24,
+    "vram": 0.94
+  },
+  {
+    "name": "Qwen2-0.5B",
+    "full_name": "Qwen/Qwen2-0.5B",
+    "speed": 24.28,
+    "vram": 0.64
+  },
+  {
+    "name": "Qwen1.5-7B",
+    "full_name": "Qwen/Qwen1.5-7B",
+    "speed": 8.77,
+    "vram": 9.76
+  },
+  {
+    "name": "Qwen1.5-1.8B",
+    "full_name": "Qwen/Qwen1.5-1.8B",
+    "speed": 24.02,
+    "vram": 2.58
+  },
+  {
+    "name": "Qwen1.5-0.5B",
+    "full_name": "Qwen/Qwen1.5-0.5B",
+    "speed": 11.93,
+    "vram": 1.07
+  },
+  {
+    "name": "Qwen1.5-1.8B",
+    "full_name": "Qwen/Qwen1.5-1.8B",
+    "speed": 11.47,
+    "vram": 3.08
+  },
+  {
+    "name": "Qwen1.5-4B",
+    "full_name": "Qwen/Qwen1.5-4B",
+    "speed": 7.33,
+    "vram": 5.62
+  },
+  {
+    "name": "Qwen2-0.5B",
+    "full_name": "Qwen/Qwen2-0.5B",
+    "speed": 31.46,
+    "vram": 0.51
+  },
+  {
+    "name": "Qwen1.5-0.5B",
+    "full_name": "Qwen/Qwen1.5-0.5B",
+    "speed": 23.99,
+    "vram": 0.94
+  },
+  {
+    "name": "Qwen1.5-1.8B",
+    "full_name": "Qwen/Qwen1.5-1.8B",
+    "speed": 26.06,
+    "vram": 2.58
+  },
+  {
+    "name": "Qwen1.5-14B",
+    "full_name": "Qwen/Qwen1.5-14B",
+    "speed": 14.22,
+    "vram": 11.35
+  },
+  {
+    "name": "DeepSeek-V2-Lite",
+    "full_name": "deepseek-ai/DeepSeek-V2-Lite",
+    "speed": 10.23,
+    "vram": 9.78
+  },
+  {
+    "name": "DeepSeek-V2-Lite",
+    "full_name": "deepseek-ai/DeepSeek-V2-Lite",
+    "speed": 9.96,
+    "vram": 9.77
+  },
+  {
+    "name": "DeepSeek-V2-Lite",
+    "full_name": "deepseek-ai/DeepSeek-V2-Lite",
+    "speed": 7.24,
+    "vram": 16.62
+  },
+  {
+    "name": "DeepSeek-V2-Lite",
+    "full_name": "deepseek-ai/DeepSeek-V2-Lite",
+    "speed": 7.14,
+    "vram": 16.63
+  }
+]

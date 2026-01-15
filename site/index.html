@@ -1,0 +1,3095 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LLM VRAM Database - Can I Run It?</title>
+        <style>
+            body { font-family: system-ui, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; }
+            table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+            th, td { text-align: left; padding: 12px; border-bottom: 1px solid #ddd; }
+            th { background: #f8fafc; }
+            a { color: #2563eb; text-decoration: none; font-weight: 500; }
+            a:hover { text-decoration: underline; }
+            input { width: 100%; padding: 12px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 20px; box-sizing: border-box; }
+        </style>
+    </head>
+    <body>
+        <h1>LLM Hardware Database</h1>
+        <p>Search 506 local AI models to see VRAM requirements and speed benchmarks.</p>
+        
+        <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="Search for models (e.g. Llama)...">
+
+        <table id="modelTable">
+            <thead>
+                <tr>
+                    <th>Model Name</th>
+                    <th>VRAM (GB)</th>
+                    <th>Speed (t/s)</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+        <tr>
+            <td><a href="model/dummy-gpt2-correct-vocab/">dummy-GPT2-correct-vocab</a></td>
+            <td>0.04 GB</td>
+            <td>141.7 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/dummy-gpt2-correct-vocab/">dummy-GPT2-correct-vocab</a></td>
+            <td>0.04 GB</td>
+            <td>148.27 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/dummy-gpt2-correct-vocab/">dummy-GPT2-correct-vocab</a></td>
+            <td>0.04 GB</td>
+            <td>142.15 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/dummy-gpt2-correct-vocab/">dummy-GPT2-correct-vocab</a></td>
+            <td>0.04 GB</td>
+            <td>139.04 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/dummy-gpt2-correct-vocab/">dummy-GPT2-correct-vocab</a></td>
+            <td>0.04 GB</td>
+            <td>159.57 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/dummy-gpt2-correct-vocab/">dummy-GPT2-correct-vocab</a></td>
+            <td>0.04 GB</td>
+            <td>149.99 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-125m/">opt-125m</a></td>
+            <td>0.17 GB</td>
+            <td>90.62 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/distilgpt2/">distilgpt2</a></td>
+            <td>0.17 GB</td>
+            <td>130.34 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/distilgpt2/">distilgpt2</a></td>
+            <td>0.17 GB</td>
+            <td>129.72 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/distilgpt2/">distilgpt2</a></td>
+            <td>0.17 GB</td>
+            <td>120.2 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-125m/">opt-125m</a></td>
+            <td>0.17 GB</td>
+            <td>50.85 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-125m/">opt-125m</a></td>
+            <td>0.17 GB</td>
+            <td>49.14 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-70m/">pythia-70m</a></td>
+            <td>0.18 GB</td>
+            <td>108.54 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-70m/">pythia-70m</a></td>
+            <td>0.18 GB</td>
+            <td>123.57 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-70m/">pythia-70m</a></td>
+            <td>0.18 GB</td>
+            <td>119.27 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-70m/">pythia-70m</a></td>
+            <td>0.18 GB</td>
+            <td>101.6 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2/">gpt2</a></td>
+            <td>0.18 GB</td>
+            <td>60.41 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-70m/">pythia-70m</a></td>
+            <td>0.18 GB</td>
+            <td>106.41 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2/">gpt2</a></td>
+            <td>0.18 GB</td>
+            <td>63.65 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-70m/">pythia-70m</a></td>
+            <td>0.18 GB</td>
+            <td>94.55 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2/">gpt2</a></td>
+            <td>0.18 GB</td>
+            <td>55.78 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-125m/">opt-125m</a></td>
+            <td>0.19 GB</td>
+            <td>61.23 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-125m/">opt-125m</a></td>
+            <td>0.19 GB</td>
+            <td>59.11 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-70m/">pythia-70m</a></td>
+            <td>0.19 GB</td>
+            <td>68.11 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-70m/">pythia-70m</a></td>
+            <td>0.19 GB</td>
+            <td>66.32 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-70m/">pythia-70m</a></td>
+            <td>0.19 GB</td>
+            <td>71.28 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/distilgpt2/">distilgpt2</a></td>
+            <td>0.19 GB</td>
+            <td>74.24 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/distilgpt2/">distilgpt2</a></td>
+            <td>0.19 GB</td>
+            <td>69.38 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/distilgpt2/">distilgpt2</a></td>
+            <td>0.19 GB</td>
+            <td>75.26 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-70m/">pythia-70m</a></td>
+            <td>0.19 GB</td>
+            <td>68.43 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-70m/">pythia-70m</a></td>
+            <td>0.19 GB</td>
+            <td>65.93 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-70m/">pythia-70m</a></td>
+            <td>0.19 GB</td>
+            <td>70.02 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2-small-spanish/">gpt2-small-spanish</a></td>
+            <td>0.19 GB</td>
+            <td>83.27 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2-small-spanish/">gpt2-small-spanish</a></td>
+            <td>0.19 GB</td>
+            <td>84.67 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2-small-spanish/">gpt2-small-spanish</a></td>
+            <td>0.19 GB</td>
+            <td>92.15 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2/">gpt2</a></td>
+            <td>0.21 GB</td>
+            <td>71.31 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2/">gpt2</a></td>
+            <td>0.21 GB</td>
+            <td>66.3 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2/">gpt2</a></td>
+            <td>0.21 GB</td>
+            <td>69.6 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-125m/">opt-125m</a></td>
+            <td>0.21 GB</td>
+            <td>67.32 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-125m/">opt-125m</a></td>
+            <td>0.21 GB</td>
+            <td>30.3 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-125m/">opt-125m</a></td>
+            <td>0.21 GB</td>
+            <td>29.34 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-125m/">gpt-neo-125m</a></td>
+            <td>0.22 GB</td>
+            <td>54.86 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-125m/">gpt-neo-125m</a></td>
+            <td>0.22 GB</td>
+            <td>62.99 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-125m/">gpt-neo-125m</a></td>
+            <td>0.22 GB</td>
+            <td>49.84 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2-small-spanish/">gpt2-small-spanish</a></td>
+            <td>0.22 GB</td>
+            <td>71.52 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2-small-spanish/">gpt2-small-spanish</a></td>
+            <td>0.22 GB</td>
+            <td>79.04 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2-small-spanish/">gpt2-small-spanish</a></td>
+            <td>0.22 GB</td>
+            <td>67.31 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-125m/">gpt-neo-125m</a></td>
+            <td>0.22 GB</td>
+            <td>45.04 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-125m/">opt-125m</a></td>
+            <td>0.23 GB</td>
+            <td>28.96 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-125m/">opt-125m</a></td>
+            <td>0.23 GB</td>
+            <td>30.38 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2/">gpt2</a></td>
+            <td>0.23 GB</td>
+            <td>38.56 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2/">gpt2</a></td>
+            <td>0.23 GB</td>
+            <td>37.27 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2/">gpt2</a></td>
+            <td>0.23 GB</td>
+            <td>40.22 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2/">gpt2</a></td>
+            <td>0.25 GB</td>
+            <td>39.49 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2/">gpt2</a></td>
+            <td>0.25 GB</td>
+            <td>35.6 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2/">gpt2</a></td>
+            <td>0.25 GB</td>
+            <td>38.21 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-125m/">gpt-neo-125m</a></td>
+            <td>0.26 GB</td>
+            <td>27.8 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-125m/">gpt-neo-125m</a></td>
+            <td>0.26 GB</td>
+            <td>29.12 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-125m/">gpt-neo-125m</a></td>
+            <td>0.26 GB</td>
+            <td>27.99 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-125m/">gpt-neo-125m</a></td>
+            <td>0.26 GB</td>
+            <td>27.44 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-350m/">opt-350m</a></td>
+            <td>0.27 GB</td>
+            <td>26.76 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-350m/">opt-350m</a></td>
+            <td>0.27 GB</td>
+            <td>24.89 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-160m/">pythia-160m</a></td>
+            <td>0.31 GB</td>
+            <td>66.62 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-160m/">pythia-160m</a></td>
+            <td>0.31 GB</td>
+            <td>63.63 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-160m/">pythia-160m</a></td>
+            <td>0.31 GB</td>
+            <td>57.12 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-160m/">pythia-160m</a></td>
+            <td>0.31 GB</td>
+            <td>53.67 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-160m/">pythia-160m</a></td>
+            <td>0.31 GB</td>
+            <td>54.79 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-160m/">pythia-160m</a></td>
+            <td>0.31 GB</td>
+            <td>51.52 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-160m/">pythia-160m</a></td>
+            <td>0.35 GB</td>
+            <td>33.97 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-160m/">pythia-160m</a></td>
+            <td>0.35 GB</td>
+            <td>37.33 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-160m/">pythia-160m</a></td>
+            <td>0.35 GB</td>
+            <td>35.86 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-160m/">pythia-160m</a></td>
+            <td>0.35 GB</td>
+            <td>35.09 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-160m/">pythia-160m</a></td>
+            <td>0.35 GB</td>
+            <td>34.68 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-160m/">pythia-160m</a></td>
+            <td>0.35 GB</td>
+            <td>37.18 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-350m/">opt-350m</a></td>
+            <td>0.41 GB</td>
+            <td>15.41 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-350m/">opt-350m</a></td>
+            <td>0.41 GB</td>
+            <td>14.99 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen2-0-5b/">Qwen2-0.5B</a></td>
+            <td>0.51 GB</td>
+            <td>29.38 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen2-0-5b/">Qwen2-0.5B</a></td>
+            <td>0.51 GB</td>
+            <td>30.4 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen2-0-5b/">Qwen2-0.5B</a></td>
+            <td>0.51 GB</td>
+            <td>31.46 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-410m/">pythia-410m</a></td>
+            <td>0.57 GB</td>
+            <td>27.98 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-410m/">pythia-410m</a></td>
+            <td>0.57 GB</td>
+            <td>29.35 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-410m/">pythia-410m</a></td>
+            <td>0.57 GB</td>
+            <td>26.39 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-410m/">pythia-410m</a></td>
+            <td>0.59 GB</td>
+            <td>29.27 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-410m/">pythia-410m</a></td>
+            <td>0.59 GB</td>
+            <td>33.64 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-410m/">pythia-410m</a></td>
+            <td>0.59 GB</td>
+            <td>32.08 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen2-0-5b/">Qwen2-0.5B</a></td>
+            <td>0.64 GB</td>
+            <td>22.91 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen2-0-5b/">Qwen2-0.5B</a></td>
+            <td>0.64 GB</td>
+            <td>23.62 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen2-0-5b/">Qwen2-0.5B</a></td>
+            <td>0.64 GB</td>
+            <td>24.28 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2-large/">gpt2-large</a></td>
+            <td>0.67 GB</td>
+            <td>21.17 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2-large/">gpt2-large</a></td>
+            <td>0.67 GB</td>
+            <td>21.81 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2-large/">gpt2-large</a></td>
+            <td>0.67 GB</td>
+            <td>19.91 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-410m/">pythia-410m</a></td>
+            <td>0.71 GB</td>
+            <td>17.53 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-410m/">pythia-410m</a></td>
+            <td>0.72 GB</td>
+            <td>18.66 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-410m/">pythia-410m</a></td>
+            <td>0.72 GB</td>
+            <td>18.83 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-410m/">pythia-410m</a></td>
+            <td>0.72 GB</td>
+            <td>17.21 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-410m/">pythia-410m</a></td>
+            <td>0.72 GB</td>
+            <td>18.49 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-410m/">pythia-410m</a></td>
+            <td>0.72 GB</td>
+            <td>19.03 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/xglm-564m/">xglm-564M</a></td>
+            <td>0.83 GB</td>
+            <td>24.7 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/rho-math-1b-v0-1/">rho-math-1b-v0.1</a></td>
+            <td>0.86 GB</td>
+            <td>22.43 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/rho-math-1b-v0-1/">rho-math-1b-v0.1</a></td>
+            <td>0.86 GB</td>
+            <td>21.26 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/rho-math-1b-v0-1/">rho-math-1b-v0.1</a></td>
+            <td>0.86 GB</td>
+            <td>20.54 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-0-5b/">Qwen1.5-0.5B</a></td>
+            <td>0.92 GB</td>
+            <td>20.13 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-0-5b/">Qwen1.5-0.5B</a></td>
+            <td>0.92 GB</td>
+            <td>21.13 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-0-5b/">Qwen1.5-0.5B</a></td>
+            <td>0.92 GB</td>
+            <td>20.15 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-0-5b/">Qwen1.5-0.5B</a></td>
+            <td>0.94 GB</td>
+            <td>24.5 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-0-5b/">Qwen1.5-0.5B</a></td>
+            <td>0.94 GB</td>
+            <td>26.24 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-0-5b/">Qwen1.5-0.5B</a></td>
+            <td>0.94 GB</td>
+            <td>23.99 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2-large/">gpt2-large</a></td>
+            <td>0.97 GB</td>
+            <td>13.33 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2-large/">gpt2-large</a></td>
+            <td>0.97 GB</td>
+            <td>12.74 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt2-large/">gpt2-large</a></td>
+            <td>0.97 GB</td>
+            <td>13.76 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/xglm-564m/">xglm-564M</a></td>
+            <td>0.98 GB</td>
+            <td>14.62 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/bloomz-560m/">bloomz-560m</a></td>
+            <td>0.98 GB</td>
+            <td>34.31 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/falcon-rw-1b/">falcon-rw-1b</a></td>
+            <td>1.02 GB</td>
+            <td>29.12 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-0-5b/">Qwen1.5-0.5B</a></td>
+            <td>1.07 GB</td>
+            <td>11.94 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-0-5b/">Qwen1.5-0.5B</a></td>
+            <td>1.07 GB</td>
+            <td>11.89 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-0-5b/">Qwen1.5-0.5B</a></td>
+            <td>1.07 GB</td>
+            <td>12.26 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-0-5b/">Qwen1.5-0.5B</a></td>
+            <td>1.07 GB</td>
+            <td>11.48 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-0-5b/">Qwen1.5-0.5B</a></td>
+            <td>1.07 GB</td>
+            <td>11.96 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-0-5b/">Qwen1.5-0.5B</a></td>
+            <td>1.07 GB</td>
+            <td>11.93 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-1-3b/">gpt-neo-1.3B</a></td>
+            <td>1.09 GB</td>
+            <td>25.39 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-1-3b/">gpt-neo-1.3B</a></td>
+            <td>1.09 GB</td>
+            <td>22.75 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/bloomz-560m/">bloomz-560m</a></td>
+            <td>1.12 GB</td>
+            <td>18.34 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-1-3b/">gpt-neo-1.3B</a></td>
+            <td>1.15 GB</td>
+            <td>29.7 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-1-3b/">gpt-neo-1.3B</a></td>
+            <td>1.15 GB</td>
+            <td>33.15 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/phi-1-5/">phi-1_5</a></td>
+            <td>1.2 GB</td>
+            <td>21.77 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/phi-1-5/">phi-1_5</a></td>
+            <td>1.2 GB</td>
+            <td>22.8 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/phi-1-5/">phi-1_5</a></td>
+            <td>1.2 GB</td>
+            <td>22.29 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/rho-math-1b-v0-1/">rho-math-1b-v0.1</a></td>
+            <td>1.35 GB</td>
+            <td>12.71 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/rho-math-1b-v0-1/">rho-math-1b-v0.1</a></td>
+            <td>1.35 GB</td>
+            <td>12.53 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/rho-math-1b-v0-1/">rho-math-1b-v0.1</a></td>
+            <td>1.35 GB</td>
+            <td>12.33 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-3b/">pythia-1.3b</a></td>
+            <td>1.37 GB</td>
+            <td>27.83 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-4b/">pythia-1.4b</a></td>
+            <td>1.37 GB</td>
+            <td>27.83 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-3b/">pythia-1.3b</a></td>
+            <td>1.37 GB</td>
+            <td>29.16 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-4b/">pythia-1.4b</a></td>
+            <td>1.37 GB</td>
+            <td>29.03 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-3b/">pythia-1.3b</a></td>
+            <td>1.37 GB</td>
+            <td>25.84 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-4b/">pythia-1.4b</a></td>
+            <td>1.37 GB</td>
+            <td>26.24 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-4b/">pythia-1.4b</a></td>
+            <td>1.43 GB</td>
+            <td>29.56 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-3b/">pythia-1.3b</a></td>
+            <td>1.43 GB</td>
+            <td>33.32 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-4b/">pythia-1.4b</a></td>
+            <td>1.43 GB</td>
+            <td>33.45 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-3b/">pythia-1.3b</a></td>
+            <td>1.43 GB</td>
+            <td>29.89 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-3b/">pythia-1.3b</a></td>
+            <td>1.43 GB</td>
+            <td>33.96 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-4b/">pythia-1.4b</a></td>
+            <td>1.43 GB</td>
+            <td>35.06 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/falcon-rw-1b/">falcon-rw-1b</a></td>
+            <td>1.52 GB</td>
+            <td>19.32 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-1-3b/">gpt-neo-1.3B</a></td>
+            <td>1.57 GB</td>
+            <td>14.75 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-1-3b/">gpt-neo-1.3B</a></td>
+            <td>1.57 GB</td>
+            <td>13.97 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-1-3b/">gpt-neo-1.3B</a></td>
+            <td>1.58 GB</td>
+            <td>14.71 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-1-3b/">gpt-neo-1.3B</a></td>
+            <td>1.59 GB</td>
+            <td>14.03 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-2-1-6b/">stablelm-2-1_6b</a></td>
+            <td>1.59 GB</td>
+            <td>21.99 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-2-1-6b/">stablelm-2-1_6b</a></td>
+            <td>1.59 GB</td>
+            <td>22.04 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-2-1-6b/">stablelm-2-1_6b</a></td>
+            <td>1.59 GB</td>
+            <td>21.04 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/phi-1-5/">phi-1_5</a></td>
+            <td>1.73 GB</td>
+            <td>14.02 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/phi-1-5/">phi-1_5</a></td>
+            <td>1.73 GB</td>
+            <td>13.64 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/phi-1-5/">phi-1_5</a></td>
+            <td>1.73 GB</td>
+            <td>13.74 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-2-7b/">opt-2.7b</a></td>
+            <td>1.8 GB</td>
+            <td>20.32 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-2-7b/">opt-2.7b</a></td>
+            <td>1.8 GB</td>
+            <td>18.63 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-3b/">pythia-1.3b</a></td>
+            <td>1.87 GB</td>
+            <td>18.95 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-4b/">pythia-1.4b</a></td>
+            <td>1.87 GB</td>
+            <td>18.59 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-4b/">pythia-1.4b</a></td>
+            <td>1.87 GB</td>
+            <td>18.41 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-3b/">pythia-1.3b</a></td>
+            <td>1.87 GB</td>
+            <td>19.2 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-3b/">pythia-1.3b</a></td>
+            <td>1.87 GB</td>
+            <td>18.63 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-4b/">pythia-1.4b</a></td>
+            <td>1.87 GB</td>
+            <td>18.6 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-3b/">pythia-1.3b</a></td>
+            <td>1.87 GB</td>
+            <td>17.75 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-4b/">pythia-1.4b</a></td>
+            <td>1.87 GB</td>
+            <td>17.35 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-3b/">pythia-1.3b</a></td>
+            <td>1.87 GB</td>
+            <td>18.61 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-4b/">pythia-1.4b</a></td>
+            <td>1.87 GB</td>
+            <td>18.92 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-4b/">pythia-1.4b</a></td>
+            <td>1.88 GB</td>
+            <td>17.09 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-1-3b/">pythia-1.3b</a></td>
+            <td>1.88 GB</td>
+            <td>17.56 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-2-7b/">gpt-neo-2.7B</a></td>
+            <td>1.94 GB</td>
+            <td>19.18 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-2-7b/">gpt-neo-2.7B</a></td>
+            <td>1.94 GB</td>
+            <td>17.72 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-3b-4e1t/">stablelm-3b-4e1t</a></td>
+            <td>2.04 GB</td>
+            <td>17.44 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-3b-4e1t/">stablelm-3b-4e1t</a></td>
+            <td>2.04 GB</td>
+            <td>17.67 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-3b-4e1t/">stablelm-3b-4e1t</a></td>
+            <td>2.04 GB</td>
+            <td>16.48 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-2-7b/">gpt-neo-2.7B</a></td>
+            <td>2.05 GB</td>
+            <td>22.1 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-2-7b/">gpt-neo-2.7B</a></td>
+            <td>2.05 GB</td>
+            <td>24.98 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-2-1-6b/">stablelm-2-1_6b</a></td>
+            <td>2.2 GB</td>
+            <td>12.52 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-2-1-6b/">stablelm-2-1_6b</a></td>
+            <td>2.2 GB</td>
+            <td>12.43 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-2-1-6b/">stablelm-2-1_6b</a></td>
+            <td>2.2 GB</td>
+            <td>12.51 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-2-7b/">pythia-2.7b</a></td>
+            <td>2.3 GB</td>
+            <td>21.16 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-2-7b/">pythia-2.7b</a></td>
+            <td>2.3 GB</td>
+            <td>21.8 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-2-7b/">pythia-2.7b</a></td>
+            <td>2.3 GB</td>
+            <td>19.76 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/redpajama-incite-base-3b-v1/">RedPajama-INCITE-Base-3B-v1</a></td>
+            <td>2.34 GB</td>
+            <td>21.32 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/redpajama-incite-base-3b-v1/">RedPajama-INCITE-Base-3B-v1</a></td>
+            <td>2.34 GB</td>
+            <td>22.14 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/redpajama-incite-base-3b-v1/">RedPajama-INCITE-Base-3B-v1</a></td>
+            <td>2.34 GB</td>
+            <td>19.54 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-2-7b/">pythia-2.7b</a></td>
+            <td>2.42 GB</td>
+            <td>25.34 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-2-7b/">pythia-2.7b</a></td>
+            <td>2.42 GB</td>
+            <td>25.5 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-2-7b/">pythia-2.7b</a></td>
+            <td>2.42 GB</td>
+            <td>22.46 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gemma-2-2b/">gemma-2-2b</a></td>
+            <td>2.5 GB</td>
+            <td>13.94 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gemma-2-2b/">gemma-2-2b</a></td>
+            <td>2.5 GB</td>
+            <td>15.96 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gemma-2-2b/">gemma-2-2b</a></td>
+            <td>2.5 GB</td>
+            <td>16.37 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gemma-2b/">gemma-2b</a></td>
+            <td>2.51 GB</td>
+            <td>29.28 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gemma-2b/">gemma-2b</a></td>
+            <td>2.51 GB</td>
+            <td>30.07 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gemma-2b/">gemma-2b</a></td>
+            <td>2.51 GB</td>
+            <td>28.97 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-1-8b/">Qwen1.5-1.8B</a></td>
+            <td>2.53 GB</td>
+            <td>19.72 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-1-8b/">Qwen1.5-1.8B</a></td>
+            <td>2.53 GB</td>
+            <td>20.05 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-1-8b/">Qwen1.5-1.8B</a></td>
+            <td>2.53 GB</td>
+            <td>19.43 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-1-8b/">Qwen1.5-1.8B</a></td>
+            <td>2.58 GB</td>
+            <td>23.79 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-1-8b/">Qwen1.5-1.8B</a></td>
+            <td>2.58 GB</td>
+            <td>24.02 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-1-8b/">Qwen1.5-1.8B</a></td>
+            <td>2.58 GB</td>
+            <td>26.06 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/recurrentgemma-2b/">recurrentgemma-2b</a></td>
+            <td>2.9 GB</td>
+            <td>18.55 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/phi-3-mini-4k-instruct/">Phi-3-mini-4k-instruct</a></td>
+            <td>2.91 GB</td>
+            <td>20.36 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/phi-3-mini-4k-instruct/">Phi-3-mini-4k-instruct</a></td>
+            <td>2.91 GB</td>
+            <td>20.03 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-2-7b/">opt-2.7b</a></td>
+            <td>2.91 GB</td>
+            <td>11.97 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-2-7b/">opt-2.7b</a></td>
+            <td>2.91 GB</td>
+            <td>11.05 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-2-7b/">gpt-neo-2.7B</a></td>
+            <td>3.04 GB</td>
+            <td>11.25 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-2-7b/">gpt-neo-2.7B</a></td>
+            <td>3.04 GB</td>
+            <td>10.5 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-2-7b/">gpt-neo-2.7B</a></td>
+            <td>3.06 GB</td>
+            <td>11.23 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neo-2-7b/">gpt-neo-2.7B</a></td>
+            <td>3.07 GB</td>
+            <td>10.69 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-1-8b/">Qwen1.5-1.8B</a></td>
+            <td>3.08 GB</td>
+            <td>11.95 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-1-8b/">Qwen1.5-1.8B</a></td>
+            <td>3.08 GB</td>
+            <td>11.86 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-1-8b/">Qwen1.5-1.8B</a></td>
+            <td>3.08 GB</td>
+            <td>12.04 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-1-8b/">Qwen1.5-1.8B</a></td>
+            <td>3.08 GB</td>
+            <td>11.97 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-1-8b/">Qwen1.5-1.8B</a></td>
+            <td>3.08 GB</td>
+            <td>11.53 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-1-8b/">Qwen1.5-1.8B</a></td>
+            <td>3.08 GB</td>
+            <td>11.47 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-3b-4e1t/">stablelm-3b-4e1t</a></td>
+            <td>3.11 GB</td>
+            <td>9.5 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-3b-4e1t/">stablelm-3b-4e1t</a></td>
+            <td>3.11 GB</td>
+            <td>9.67 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-3b-4e1t/">stablelm-3b-4e1t</a></td>
+            <td>3.12 GB</td>
+            <td>9.37 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gemma-2-2b/">gemma-2-2b</a></td>
+            <td>3.21 GB</td>
+            <td>8.26 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gemma-2-2b/">gemma-2-2b</a></td>
+            <td>3.21 GB</td>
+            <td>8.98 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gemma-2-2b/">gemma-2-2b</a></td>
+            <td>3.21 GB</td>
+            <td>9.0 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-base-alpha-3b/">stablelm-base-alpha-3b</a></td>
+            <td>3.31 GB</td>
+            <td>40.93 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-base-alpha-3b/">stablelm-base-alpha-3b</a></td>
+            <td>3.31 GB</td>
+            <td>41.92 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-base-alpha-3b/">stablelm-base-alpha-3b</a></td>
+            <td>3.31 GB</td>
+            <td>37.03 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gemma-2b/">gemma-2b</a></td>
+            <td>3.36 GB</td>
+            <td>14.56 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gemma-2b/">gemma-2b</a></td>
+            <td>3.36 GB</td>
+            <td>14.37 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gemma-2b/">gemma-2b</a></td>
+            <td>3.36 GB</td>
+            <td>14.95 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/xglm-4-5b/">xglm-4.5B</a></td>
+            <td>3.4 GB</td>
+            <td>12.45 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-2-7b/">pythia-2.7b</a></td>
+            <td>3.42 GB</td>
+            <td>14.1 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-2-7b/">pythia-2.7b</a></td>
+            <td>3.42 GB</td>
+            <td>13.21 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-2-7b/">pythia-2.7b</a></td>
+            <td>3.42 GB</td>
+            <td>13.89 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-2-7b/">pythia-2.7b</a></td>
+            <td>3.44 GB</td>
+            <td>13.71 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-2-7b/">pythia-2.7b</a></td>
+            <td>3.44 GB</td>
+            <td>13.82 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-2-7b/">pythia-2.7b</a></td>
+            <td>3.45 GB</td>
+            <td>13.38 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/redpajama-incite-base-3b-v1/">RedPajama-INCITE-Base-3B-v1</a></td>
+            <td>3.45 GB</td>
+            <td>13.82 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/redpajama-incite-base-3b-v1/">RedPajama-INCITE-Base-3B-v1</a></td>
+            <td>3.45 GB</td>
+            <td>13.17 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/redpajama-incite-base-3b-v1/">RedPajama-INCITE-Base-3B-v1</a></td>
+            <td>3.45 GB</td>
+            <td>14.09 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/recurrentgemma-2b/">recurrentgemma-2b</a></td>
+            <td>3.73 GB</td>
+            <td>10.15 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-4b/">Qwen1.5-4B</a></td>
+            <td>4.16 GB</td>
+            <td>11.77 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-4b/">Qwen1.5-4B</a></td>
+            <td>4.16 GB</td>
+            <td>12.64 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-4b/">Qwen1.5-4B</a></td>
+            <td>4.16 GB</td>
+            <td>12.23 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-6-7b/">opt-6.7b</a></td>
+            <td>4.23 GB</td>
+            <td>19.85 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-6-7b/">opt-6.7b</a></td>
+            <td>4.23 GB</td>
+            <td>18.55 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/phi-3-mini-4k-instruct/">Phi-3-mini-4k-instruct</a></td>
+            <td>4.24 GB</td>
+            <td>11.7 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/phi-3-mini-4k-instruct/">Phi-3-mini-4k-instruct</a></td>
+            <td>4.24 GB</td>
+            <td>11.95 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/yi-6b/">Yi-6B</a></td>
+            <td>4.24 GB</td>
+            <td>15.04 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/yi-6b/">Yi-6B</a></td>
+            <td>4.24 GB</td>
+            <td>14.86 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/yi-6b/">Yi-6B</a></td>
+            <td>4.24 GB</td>
+            <td>14.2 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-4b/">Qwen1.5-4B</a></td>
+            <td>4.28 GB</td>
+            <td>13.99 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-4b/">Qwen1.5-4B</a></td>
+            <td>4.28 GB</td>
+            <td>14.85 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-4b/">Qwen1.5-4B</a></td>
+            <td>4.28 GB</td>
+            <td>15.49 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-7b/">llama-7b</a></td>
+            <td>4.29 GB</td>
+            <td>15.19 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-7b/">llama-7b</a></td>
+            <td>4.29 GB</td>
+            <td>15.48 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-7b/">llama-7b</a></td>
+            <td>4.29 GB</td>
+            <td>14.96 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-2-7b-hf/">Llama-2-7b-hf</a></td>
+            <td>4.32 GB</td>
+            <td>15.54 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-2-7b-hf/">Llama-2-7b-hf</a></td>
+            <td>4.32 GB</td>
+            <td>16.04 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-2-7b-hf/">Llama-2-7b-hf</a></td>
+            <td>4.32 GB</td>
+            <td>14.91 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-j-6b/">gpt-j-6b</a></td>
+            <td>4.33 GB</td>
+            <td>14.36 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-j-6b/">gpt-j-6b</a></td>
+            <td>4.33 GB</td>
+            <td>16.69 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/yi-6b/">Yi-6B</a></td>
+            <td>4.43 GB</td>
+            <td>19.64 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/yi-6b/">Yi-6B</a></td>
+            <td>4.43 GB</td>
+            <td>19.4 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/yi-6b/">Yi-6B</a></td>
+            <td>4.43 GB</td>
+            <td>21.02 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/decilm-7b/">DeciLM-7B</a></td>
+            <td>4.45 GB</td>
+            <td>15.65 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/decilm-7b/">DeciLM-7B</a></td>
+            <td>4.45 GB</td>
+            <td>15.81 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-base-alpha-3b/">stablelm-base-alpha-3b</a></td>
+            <td>4.46 GB</td>
+            <td>26.72 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-base-alpha-3b/">stablelm-base-alpha-3b</a></td>
+            <td>4.46 GB</td>
+            <td>25.27 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-base-alpha-3b/">stablelm-base-alpha-3b</a></td>
+            <td>4.46 GB</td>
+            <td>25.73 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/falcon-7b/">falcon-7b</a></td>
+            <td>4.5 GB</td>
+            <td>21.99 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-j-6b/">gpt-j-6b</a></td>
+            <td>4.58 GB</td>
+            <td>20.2 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-j-6b/">gpt-j-6b</a></td>
+            <td>4.58 GB</td>
+            <td>17.34 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/decilm-7b/">DeciLM-7B</a></td>
+            <td>4.77 GB</td>
+            <td>19.85 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/decilm-7b/">DeciLM-7B</a></td>
+            <td>4.77 GB</td>
+            <td>19.78 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/zephyr-7b-beta/">zephyr-7b-beta</a></td>
+            <td>4.79 GB</td>
+            <td>21.3 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/zephyr-7b-beta/">zephyr-7b-beta</a></td>
+            <td>4.79 GB</td>
+            <td>20.34 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/zephyr-7b-beta/">zephyr-7b-beta</a></td>
+            <td>4.79 GB</td>
+            <td>22.19 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/codegen-6b-nl/">codegen-6B-nl</a></td>
+            <td>4.89 GB</td>
+            <td>16.47 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-6-7b/">pythia-6.7b</a></td>
+            <td>4.97 GB</td>
+            <td>21.29 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/mistral-7b-v0-1/">Mistral-7B-v0.1</a></td>
+            <td>4.97 GB</td>
+            <td>15.25 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-6-7b/">pythia-6.7b</a></td>
+            <td>4.97 GB</td>
+            <td>21.82 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/mistral-7b-v0-1/">Mistral-7B-v0.1</a></td>
+            <td>4.97 GB</td>
+            <td>15.94 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-6-7b/">pythia-6.7b</a></td>
+            <td>4.97 GB</td>
+            <td>19.53 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/mistral-7b-v0-1/">Mistral-7B-v0.1</a></td>
+            <td>4.97 GB</td>
+            <td>15.69 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/redpajama-incite-base-7b-v0-1/">RedPajama-INCITE-Base-7B-v0.1</a></td>
+            <td>5.02 GB</td>
+            <td>21.29 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/redpajama-incite-base-7b-v0-1/">RedPajama-INCITE-Base-7B-v0.1</a></td>
+            <td>5.02 GB</td>
+            <td>21.73 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/redpajama-incite-base-7b-v0-1/">RedPajama-INCITE-Base-7B-v0.1</a></td>
+            <td>5.02 GB</td>
+            <td>19.28 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/xglm-4-5b/">xglm-4.5B</a></td>
+            <td>5.21 GB</td>
+            <td>7.25 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-6-7b/">pythia-6.7b</a></td>
+            <td>5.29 GB</td>
+            <td>25.89 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-6-7b/">pythia-6.7b</a></td>
+            <td>5.29 GB</td>
+            <td>22.35 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-6-7b/">pythia-6.7b</a></td>
+            <td>5.29 GB</td>
+            <td>24.53 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-4b/">Qwen1.5-4B</a></td>
+            <td>5.62 GB</td>
+            <td>7.07 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-4b/">Qwen1.5-4B</a></td>
+            <td>5.62 GB</td>
+            <td>7.18 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-4b/">Qwen1.5-4B</a></td>
+            <td>5.62 GB</td>
+            <td>7.25 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-4b/">Qwen1.5-4B</a></td>
+            <td>5.62 GB</td>
+            <td>6.98 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-4b/">Qwen1.5-4B</a></td>
+            <td>5.62 GB</td>
+            <td>7.13 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-4b/">Qwen1.5-4B</a></td>
+            <td>5.62 GB</td>
+            <td>7.33 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/xglm-7-5b/">xglm-7.5B</a></td>
+            <td>5.88 GB</td>
+            <td>17.78 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/mistral-pro-8b-v0-1/">Mistral_Pro_8B_v0.1</a></td>
+            <td>5.99 GB</td>
+            <td>12.0 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/mistral-pro-8b-v0-1/">Mistral_Pro_8B_v0.1</a></td>
+            <td>5.99 GB</td>
+            <td>12.56 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/mistral-pro-8b-v0-1/">Mistral_Pro_8B_v0.1</a></td>
+            <td>5.99 GB</td>
+            <td>12.08 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/meta-llama-3-8b/">Meta-Llama-3-8B</a></td>
+            <td>6.11 GB</td>
+            <td>15.12 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/meta-llama-3-8b/">Meta-Llama-3-8B</a></td>
+            <td>6.11 GB</td>
+            <td>15.09 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/meta-llama-3-8b/">Meta-Llama-3-8B</a></td>
+            <td>6.11 GB</td>
+            <td>13.84 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-3-1-8b-instruct/">Llama-3.1-8B-Instruct</a></td>
+            <td>6.32 GB</td>
+            <td>17.99 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/meta-llama-3-8b/">Meta-Llama-3-8B</a></td>
+            <td>6.32 GB</td>
+            <td>17.94 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/meta-llama-3-8b/">Meta-Llama-3-8B</a></td>
+            <td>6.32 GB</td>
+            <td>17.53 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-3-1-8b-instruct/">Llama-3.1-8B-Instruct</a></td>
+            <td>6.32 GB</td>
+            <td>18.12 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/meta-llama-3-8b-instruct/">Meta-Llama-3-8B-Instruct</a></td>
+            <td>6.32 GB</td>
+            <td>17.83 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/meta-llama-3-8b-instruct/">Meta-Llama-3-8B-Instruct</a></td>
+            <td>6.32 GB</td>
+            <td>18.18 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/meta-llama-3-8b/">Meta-Llama-3-8B</a></td>
+            <td>6.32 GB</td>
+            <td>18.3 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/meta-llama-3-8b-instruct/">Meta-Llama-3-8B-Instruct</a></td>
+            <td>6.32 GB</td>
+            <td>17.91 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-3-1-8b-instruct/">Llama-3.1-8B-Instruct</a></td>
+            <td>6.32 GB</td>
+            <td>17.98 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-base-alpha-7b/">stablelm-base-alpha-7b</a></td>
+            <td>6.34 GB</td>
+            <td>37.41 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-base-alpha-7b/">stablelm-base-alpha-7b</a></td>
+            <td>6.34 GB</td>
+            <td>38.34 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-base-alpha-7b/">stablelm-base-alpha-7b</a></td>
+            <td>6.34 GB</td>
+            <td>31.4 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gemma-7b/">gemma-7b</a></td>
+            <td>6.42 GB</td>
+            <td>19.13 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gemma-7b/">gemma-7b</a></td>
+            <td>6.42 GB</td>
+            <td>20.14 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gemma-7b/">gemma-7b</a></td>
+            <td>6.42 GB</td>
+            <td>19.12 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-j-6b/">gpt-j-6b</a></td>
+            <td>6.65 GB</td>
+            <td>9.83 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-j-6b/">gpt-j-6b</a></td>
+            <td>6.65 GB</td>
+            <td>10.45 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/yi-6b/">Yi-6B</a></td>
+            <td>6.66 GB</td>
+            <td>8.96 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/yi-6b/">Yi-6B</a></td>
+            <td>6.66 GB</td>
+            <td>8.92 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/yi-6b/">Yi-6B</a></td>
+            <td>6.66 GB</td>
+            <td>9.03 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-j-6b/">gpt-j-6b</a></td>
+            <td>6.67 GB</td>
+            <td>9.75 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-j-6b/">gpt-j-6b</a></td>
+            <td>6.68 GB</td>
+            <td>10.71 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-7b/">Qwen1.5-7B</a></td>
+            <td>6.7 GB</td>
+            <td>14.82 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-7b/">Qwen1.5-7B</a></td>
+            <td>6.7 GB</td>
+            <td>15.48 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-7b/">Qwen1.5-7B</a></td>
+            <td>6.7 GB</td>
+            <td>14.58 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/yi-6b/">Yi-6B</a></td>
+            <td>6.72 GB</td>
+            <td>8.9 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/yi-6b/">Yi-6B</a></td>
+            <td>6.72 GB</td>
+            <td>8.07 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/yi-6b/">Yi-6B</a></td>
+            <td>6.72 GB</td>
+            <td>8.66 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/recurrentgemma-9b/">recurrentgemma-9b</a></td>
+            <td>6.79 GB</td>
+            <td>12.63 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-6-7b/">opt-6.7b</a></td>
+            <td>6.9 GB</td>
+            <td>11.74 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-6-7b/">opt-6.7b</a></td>
+            <td>6.9 GB</td>
+            <td>11.16 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-7b/">Qwen1.5-7B</a></td>
+            <td>6.99 GB</td>
+            <td>17.93 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-7b/">Qwen1.5-7B</a></td>
+            <td>6.99 GB</td>
+            <td>17.98 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-7b/">Qwen1.5-7B</a></td>
+            <td>6.99 GB</td>
+            <td>18.91 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/falcon-7b/">falcon-7b</a></td>
+            <td>7.13 GB</td>
+            <td>13.52 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-7b/">llama-7b</a></td>
+            <td>7.16 GB</td>
+            <td>8.83 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-7b/">llama-7b</a></td>
+            <td>7.16 GB</td>
+            <td>8.73 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-7b/">llama-7b</a></td>
+            <td>7.16 GB</td>
+            <td>9.07 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-2-7b-hf/">Llama-2-7b-hf</a></td>
+            <td>7.2 GB</td>
+            <td>8.97 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-2-7b-hf/">Llama-2-7b-hf</a></td>
+            <td>7.2 GB</td>
+            <td>8.74 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-2-7b-hf/">Llama-2-7b-hf</a></td>
+            <td>7.2 GB</td>
+            <td>9.05 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/decilm-7b/">DeciLM-7B</a></td>
+            <td>7.34 GB</td>
+            <td>8.84 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/decilm-7b/">DeciLM-7B</a></td>
+            <td>7.34 GB</td>
+            <td>8.65 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/decilm-7b/">DeciLM-7B</a></td>
+            <td>7.39 GB</td>
+            <td>9.08 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/decilm-7b/">DeciLM-7B</a></td>
+            <td>7.39 GB</td>
+            <td>8.9 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/zephyr-7b-beta/">zephyr-7b-beta</a></td>
+            <td>7.41 GB</td>
+            <td>15.9 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/zephyr-7b-beta/">zephyr-7b-beta</a></td>
+            <td>7.41 GB</td>
+            <td>15.65 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/zephyr-7b-beta/">zephyr-7b-beta</a></td>
+            <td>7.41 GB</td>
+            <td>16.95 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-6-7b/">pythia-6.7b</a></td>
+            <td>7.63 GB</td>
+            <td>13.83 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-6-7b/">pythia-6.7b</a></td>
+            <td>7.63 GB</td>
+            <td>13.01 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-6-7b/">pythia-6.7b</a></td>
+            <td>7.63 GB</td>
+            <td>13.81 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-6-7b/">pythia-6.7b</a></td>
+            <td>7.69 GB</td>
+            <td>14.2 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-6-7b/">pythia-6.7b</a></td>
+            <td>7.69 GB</td>
+            <td>14.12 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/redpajama-incite-base-7b-v0-1/">RedPajama-INCITE-Base-7B-v0.1</a></td>
+            <td>7.69 GB</td>
+            <td>13.86 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/codegen-6b-nl/">codegen-6B-nl</a></td>
+            <td>7.69 GB</td>
+            <td>11.45 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/redpajama-incite-base-7b-v0-1/">RedPajama-INCITE-Base-7B-v0.1</a></td>
+            <td>7.69 GB</td>
+            <td>13.11 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/redpajama-incite-base-7b-v0-1/">RedPajama-INCITE-Base-7B-v0.1</a></td>
+            <td>7.69 GB</td>
+            <td>14.14 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-6-7b/">pythia-6.7b</a></td>
+            <td>7.7 GB</td>
+            <td>13.2 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-13b/">opt-13b</a></td>
+            <td>7.74 GB</td>
+            <td>16.16 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-13b/">opt-13b</a></td>
+            <td>7.74 GB</td>
+            <td>14.99 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-13b/">llama-13b</a></td>
+            <td>7.82 GB</td>
+            <td>12.39 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-13b/">llama-13b</a></td>
+            <td>7.82 GB</td>
+            <td>12.45 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-13b/">llama-13b</a></td>
+            <td>7.82 GB</td>
+            <td>12.18 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-2-13b-hf/">Llama-2-13b-hf</a></td>
+            <td>7.86 GB</td>
+            <td>12.56 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-2-13b-hf/">Llama-2-13b-hf</a></td>
+            <td>7.86 GB</td>
+            <td>12.41 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-2-13b-hf/">Llama-2-13b-hf</a></td>
+            <td>7.86 GB</td>
+            <td>12.19 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/mistral-7b-v0-1/">Mistral-7B-v0.1</a></td>
+            <td>7.95 GB</td>
+            <td>8.96 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/mistral-7b-v0-1/">Mistral-7B-v0.1</a></td>
+            <td>7.95 GB</td>
+            <td>8.83 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/mistral-7b-v0-1/">Mistral-7B-v0.1</a></td>
+            <td>7.95 GB</td>
+            <td>9.15 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-12b/">pythia-12b</a></td>
+            <td>8.04 GB</td>
+            <td>18.85 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-12b/">pythia-12b</a></td>
+            <td>8.04 GB</td>
+            <td>19.45 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-12b/">pythia-12b</a></td>
+            <td>8.04 GB</td>
+            <td>17.4 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-2-12b/">stablelm-2-12b</a></td>
+            <td>8.22 GB</td>
+            <td>7.45 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-2-12b/">stablelm-2-12b</a></td>
+            <td>8.22 GB</td>
+            <td>7.34 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-2-12b/">stablelm-2-12b</a></td>
+            <td>8.22 GB</td>
+            <td>7.11 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/polyglot-ko-12-8b/">polyglot-ko-12.8b</a></td>
+            <td>8.36 GB</td>
+            <td>16.9 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/polyglot-ko-12-8b/">polyglot-ko-12.8b</a></td>
+            <td>8.36 GB</td>
+            <td>17.71 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/polyglot-ko-12-8b/">polyglot-ko-12.8b</a></td>
+            <td>8.36 GB</td>
+            <td>15.66 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-12b/">pythia-12b</a></td>
+            <td>8.55 GB</td>
+            <td>22.15 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-12b/">pythia-12b</a></td>
+            <td>8.55 GB</td>
+            <td>19.69 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-12b/">pythia-12b</a></td>
+            <td>8.55 GB</td>
+            <td>22.95 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/xglm-7-5b/">xglm-7.5B</a></td>
+            <td>8.64 GB</td>
+            <td>10.58 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-moe-a2-7b/">Qwen1.5-MoE-A2.7B</a></td>
+            <td>8.75 GB</td>
+            <td>1.61 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-moe-a2-7b/">Qwen1.5-MoE-A2.7B</a></td>
+            <td>8.75 GB</td>
+            <td>1.66 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-moe-a2-7b/">Qwen1.5-MoE-A2.7B</a></td>
+            <td>8.75 GB</td>
+            <td>1.64 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-base-alpha-7b/">stablelm-base-alpha-7b</a></td>
+            <td>8.9 GB</td>
+            <td>26.81 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-base-alpha-7b/">stablelm-base-alpha-7b</a></td>
+            <td>8.9 GB</td>
+            <td>24.88 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-base-alpha-7b/">stablelm-base-alpha-7b</a></td>
+            <td>8.9 GB</td>
+            <td>27.41 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/polyglot-ko-12-8b/">polyglot-ko-12.8b</a></td>
+            <td>8.92 GB</td>
+            <td>20.97 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/polyglot-ko-12-8b/">polyglot-ko-12.8b</a></td>
+            <td>8.92 GB</td>
+            <td>20.12 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/polyglot-ko-12-8b/">polyglot-ko-12.8b</a></td>
+            <td>8.92 GB</td>
+            <td>18.02 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/meta-llama-3-8b/">Meta-Llama-3-8B</a></td>
+            <td>8.96 GB</td>
+            <td>8.63 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/meta-llama-3-8b-instruct/">Meta-Llama-3-8B-Instruct</a></td>
+            <td>8.96 GB</td>
+            <td>8.4 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/meta-llama-3-8b-instruct/">Meta-Llama-3-8B-Instruct</a></td>
+            <td>8.96 GB</td>
+            <td>8.67 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/meta-llama-3-8b-instruct/">Meta-Llama-3-8B-Instruct</a></td>
+            <td>8.96 GB</td>
+            <td>8.73 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/meta-llama-3-8b/">Meta-Llama-3-8B</a></td>
+            <td>8.96 GB</td>
+            <td>8.62 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-3-1-8b-instruct/">Llama-3.1-8B-Instruct</a></td>
+            <td>8.96 GB</td>
+            <td>8.6 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-3-1-8b-instruct/">Llama-3.1-8B-Instruct</a></td>
+            <td>8.96 GB</td>
+            <td>8.82 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-3-1-8b-instruct/">Llama-3.1-8B-Instruct</a></td>
+            <td>8.96 GB</td>
+            <td>8.4 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/meta-llama-3-8b/">Meta-Llama-3-8B</a></td>
+            <td>8.96 GB</td>
+            <td>8.47 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/meta-llama-3-8b/">Meta-Llama-3-8B</a></td>
+            <td>9.24 GB</td>
+            <td>8.77 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/meta-llama-3-8b/">Meta-Llama-3-8B</a></td>
+            <td>9.24 GB</td>
+            <td>8.4 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/meta-llama-3-8b/">Meta-Llama-3-8B</a></td>
+            <td>9.24 GB</td>
+            <td>8.73 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-moe-a2-7b/">Qwen1.5-MoE-A2.7B</a></td>
+            <td>9.37 GB</td>
+            <td>1.74 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gemma-7b/">gemma-7b</a></td>
+            <td>9.62 GB</td>
+            <td>9.27 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gemma-7b/">gemma-7b</a></td>
+            <td>9.62 GB</td>
+            <td>9.32 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gemma-7b/">gemma-7b</a></td>
+            <td>9.62 GB</td>
+            <td>9.62 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-7b/">Qwen1.5-7B</a></td>
+            <td>9.76 GB</td>
+            <td>8.84 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-7b/">Qwen1.5-7B</a></td>
+            <td>9.76 GB</td>
+            <td>8.93 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-7b/">Qwen1.5-7B</a></td>
+            <td>9.76 GB</td>
+            <td>9.09 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-7b/">Qwen1.5-7B</a></td>
+            <td>9.76 GB</td>
+            <td>8.77 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-7b/">Qwen1.5-7B</a></td>
+            <td>9.76 GB</td>
+            <td>9.11 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-7b/">Qwen1.5-7B</a></td>
+            <td>9.76 GB</td>
+            <td>8.77 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/deepseek-v2-lite/">DeepSeek-V2-Lite</a></td>
+            <td>9.77 GB</td>
+            <td>9.96 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/deepseek-v2-lite/">DeepSeek-V2-Lite</a></td>
+            <td>9.78 GB</td>
+            <td>10.23 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/mistral-pro-8b-v0-1/">Mistral_Pro_8B_v0.1</a></td>
+            <td>9.79 GB</td>
+            <td>6.92 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/mistral-pro-8b-v0-1/">Mistral_Pro_8B_v0.1</a></td>
+            <td>9.79 GB</td>
+            <td>7.13 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/mistral-pro-8b-v0-1/">Mistral_Pro_8B_v0.1</a></td>
+            <td>9.79 GB</td>
+            <td>7.03 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/recurrentgemma-9b/">recurrentgemma-9b</a></td>
+            <td>9.97 GB</td>
+            <td>7.1 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/codegen-16b-nl/">codegen-16B-nl</a></td>
+            <td>10.32 GB</td>
+            <td>15.35 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-14b/">Qwen1.5-14B</a></td>
+            <td>10.83 GB</td>
+            <td>12.02 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen2-beta-14b/">Qwen2-beta-14B</a></td>
+            <td>10.83 GB</td>
+            <td>11.9 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-14b/">Qwen1.5-14B</a></td>
+            <td>10.83 GB</td>
+            <td>12.63 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen2-beta-14b/">Qwen2-beta-14B</a></td>
+            <td>10.83 GB</td>
+            <td>12.56 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-14b/">Qwen1.5-14B</a></td>
+            <td>10.83 GB</td>
+            <td>11.91 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen2-beta-14b/">Qwen2-beta-14B</a></td>
+            <td>10.83 GB</td>
+            <td>11.88 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-14b/">Qwen1.5-14B</a></td>
+            <td>11.35 GB</td>
+            <td>15.39 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-14b/">Qwen1.5-14B</a></td>
+            <td>11.35 GB</td>
+            <td>14.04 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-14b/">Qwen1.5-14B</a></td>
+            <td>11.35 GB</td>
+            <td>14.22 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/internlm2-20b/">internlm2-20b</a></td>
+            <td>12.52 GB</td>
+            <td>11.47 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/internlm-20b/">internlm-20b</a></td>
+            <td>12.79 GB</td>
+            <td>7.61 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/internlm-20b/">internlm-20b</a></td>
+            <td>12.79 GB</td>
+            <td>7.37 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-12b/">pythia-12b</a></td>
+            <td>12.84 GB</td>
+            <td>11.97 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-12b/">pythia-12b</a></td>
+            <td>12.84 GB</td>
+            <td>11.54 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-12b/">pythia-12b</a></td>
+            <td>12.84 GB</td>
+            <td>12.57 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-12b/">pythia-12b</a></td>
+            <td>12.94 GB</td>
+            <td>11.62 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-12b/">pythia-12b</a></td>
+            <td>12.94 GB</td>
+            <td>12.3 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/pythia-12b/">pythia-12b</a></td>
+            <td>12.94 GB</td>
+            <td>12.65 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neox-20b/">gpt-neox-20b</a></td>
+            <td>13.1 GB</td>
+            <td>14.32 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neox-20b/">gpt-neox-20b</a></td>
+            <td>13.1 GB</td>
+            <td>14.61 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neox-20b/">gpt-neox-20b</a></td>
+            <td>13.1 GB</td>
+            <td>11.96 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-2-12b/">stablelm-2-12b</a></td>
+            <td>13.15 GB</td>
+            <td>5.22 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-2-12b/">stablelm-2-12b</a></td>
+            <td>13.15 GB</td>
+            <td>4.88 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/stablelm-2-12b/">stablelm-2-12b</a></td>
+            <td>13.15 GB</td>
+            <td>5.12 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-13b/">opt-13b</a></td>
+            <td>13.24 GB</td>
+            <td>8.76 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-13b/">opt-13b</a></td>
+            <td>13.25 GB</td>
+            <td>9.21 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/internlm2-20b/">internlm2-20b</a></td>
+            <td>13.31 GB</td>
+            <td>11.99 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/internlm2-20b/">internlm2-20b</a></td>
+            <td>13.31 GB</td>
+            <td>11.74 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-13b/">llama-13b</a></td>
+            <td>13.56 GB</td>
+            <td>6.98 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-13b/">llama-13b</a></td>
+            <td>13.57 GB</td>
+            <td>7.21 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-13b/">llama-13b</a></td>
+            <td>13.57 GB</td>
+            <td>7.3 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-2-13b-hf/">Llama-2-13b-hf</a></td>
+            <td>13.6 GB</td>
+            <td>6.97 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-2-13b-hf/">Llama-2-13b-hf</a></td>
+            <td>13.61 GB</td>
+            <td>7.12 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-2-13b-hf/">Llama-2-13b-hf</a></td>
+            <td>13.61 GB</td>
+            <td>7.11 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/polyglot-ko-12-8b/">polyglot-ko-12.8b</a></td>
+            <td>13.75 GB</td>
+            <td>11.26 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/polyglot-ko-12-8b/">polyglot-ko-12.8b</a></td>
+            <td>13.76 GB</td>
+            <td>11.21 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/polyglot-ko-12-8b/">polyglot-ko-12.8b</a></td>
+            <td>13.76 GB</td>
+            <td>10.58 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/polyglot-ko-12-8b/">polyglot-ko-12.8b</a></td>
+            <td>13.84 GB</td>
+            <td>11.1 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/polyglot-ko-12-8b/">polyglot-ko-12.8b</a></td>
+            <td>13.85 GB</td>
+            <td>10.52 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/polyglot-ko-12-8b/">polyglot-ko-12.8b</a></td>
+            <td>13.85 GB</td>
+            <td>11.34 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neox-20b/">gpt-neox-20b</a></td>
+            <td>13.98 GB</td>
+            <td>13.78 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neox-20b/">gpt-neox-20b</a></td>
+            <td>13.98 GB</td>
+            <td>16.72 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neox-20b/">gpt-neox-20b</a></td>
+            <td>13.98 GB</td>
+            <td>16.66 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-moe-a2-7b/">Qwen1.5-MoE-A2.7B</a></td>
+            <td>15.55 GB</td>
+            <td>1.41 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-moe-a2-7b/">Qwen1.5-MoE-A2.7B</a></td>
+            <td>15.55 GB</td>
+            <td>1.4 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-moe-a2-7b/">Qwen1.5-MoE-A2.7B</a></td>
+            <td>15.55 GB</td>
+            <td>1.41 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/deepseek-v2-lite/">DeepSeek-V2-Lite</a></td>
+            <td>16.62 GB</td>
+            <td>7.24 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-14b/">Qwen1.5-14B</a></td>
+            <td>16.63 GB</td>
+            <td>7.09 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen2-beta-14b/">Qwen2-beta-14B</a></td>
+            <td>16.63 GB</td>
+            <td>7.08 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-14b/">Qwen1.5-14B</a></td>
+            <td>16.63 GB</td>
+            <td>7.11 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen2-beta-14b/">Qwen2-beta-14B</a></td>
+            <td>16.63 GB</td>
+            <td>7.06 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-14b/">Qwen1.5-14B</a></td>
+            <td>16.63 GB</td>
+            <td>7.23 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen2-beta-14b/">Qwen2-beta-14B</a></td>
+            <td>16.63 GB</td>
+            <td>7.2 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-14b/">Qwen1.5-14B</a></td>
+            <td>16.63 GB</td>
+            <td>6.88 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-14b/">Qwen1.5-14B</a></td>
+            <td>16.63 GB</td>
+            <td>7.03 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-14b/">Qwen1.5-14B</a></td>
+            <td>16.63 GB</td>
+            <td>7.26 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/deepseek-v2-lite/">DeepSeek-V2-Lite</a></td>
+            <td>16.63 GB</td>
+            <td>7.14 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/codegen-16b-nl/">codegen-16B-nl</a></td>
+            <td>16.74 GB</td>
+            <td>11.01 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-30b/">opt-30b</a></td>
+            <td>17.27 GB</td>
+            <td>10.91 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/opt-30b/">opt-30b</a></td>
+            <td>17.27 GB</td>
+            <td>9.47 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-30b/">llama-30b</a></td>
+            <td>18.44 GB</td>
+            <td>8.3 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-30b/">llama-30b</a></td>
+            <td>18.44 GB</td>
+            <td>8.4 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/llama-30b/">llama-30b</a></td>
+            <td>18.44 GB</td>
+            <td>8.07 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/yi-34b/">Yi-34B</a></td>
+            <td>19.78 GB</td>
+            <td>8.02 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/yi-34b/">Yi-34B</a></td>
+            <td>19.78 GB</td>
+            <td>7.84 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/yi-34b/">Yi-34B</a></td>
+            <td>19.78 GB</td>
+            <td>7.73 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-32b/">Qwen1.5-32B</a></td>
+            <td>20.69 GB</td>
+            <td>6.88 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-32b/">Qwen1.5-32B</a></td>
+            <td>20.69 GB</td>
+            <td>7.58 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-32b/">Qwen1.5-32B</a></td>
+            <td>20.69 GB</td>
+            <td>7.11 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/internlm2-20b/">internlm2-20b</a></td>
+            <td>20.89 GB</td>
+            <td>7.16 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/yi-34b/">Yi-34B</a></td>
+            <td>21.16 GB</td>
+            <td>10.34 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/yi-34b/">Yi-34B</a></td>
+            <td>21.16 GB</td>
+            <td>9.22 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/yi-34b/">Yi-34B</a></td>
+            <td>21.16 GB</td>
+            <td>10.72 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/internlm-20b/">internlm-20b</a></td>
+            <td>21.62 GB</td>
+            <td>4.54 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/internlm-20b/">internlm-20b</a></td>
+            <td>21.62 GB</td>
+            <td>4.43 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neox-20b/">gpt-neox-20b</a></td>
+            <td>21.65 GB</td>
+            <td>9.67 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neox-20b/">gpt-neox-20b</a></td>
+            <td>21.65 GB</td>
+            <td>9.22 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neox-20b/">gpt-neox-20b</a></td>
+            <td>21.65 GB</td>
+            <td>9.82 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/internlm2-20b/">internlm2-20b</a></td>
+            <td>21.67 GB</td>
+            <td>7.29 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/internlm2-20b/">internlm2-20b</a></td>
+            <td>21.68 GB</td>
+            <td>7.61 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neox-20b/">gpt-neox-20b</a></td>
+            <td>21.78 GB</td>
+            <td>9.89 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neox-20b/">gpt-neox-20b</a></td>
+            <td>21.78 GB</td>
+            <td>9.64 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/gpt-neox-20b/">gpt-neox-20b</a></td>
+            <td>21.79 GB</td>
+            <td>9.3 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-32b/">Qwen1.5-32B</a></td>
+            <td>22.08 GB</td>
+            <td>8.81 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-32b/">Qwen1.5-32B</a></td>
+            <td>22.08 GB</td>
+            <td>7.63 t/s</td>
+        </tr>
+        
+        <tr>
+            <td><a href="model/qwen1-5-32b/">Qwen1.5-32B</a></td>
+            <td>22.08 GB</td>
+            <td>9.31 t/s</td>
+        </tr>
+        
+            </tbody>
+        </table>
+
+        <script>
+            function filterTable() {
+                var input, filter, table, tr, td, i, txtValue;
+                input = document.getElementById("searchInput");
+                filter = input.value.toUpperCase();
+                table = document.getElementById("modelTable");
+                tr = table.getElementsByTagName("tr");
+                for (i = 0; i < tr.length; i++) {
+                    td = tr[i].getElementsByTagName("td")[0];
+                    if (td) {
+                        txtValue = td.textContent || td.innerText;
+                        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                            tr[i].style.display = "";
+                        } else {
+                            tr[i].style.display = "none";
+                        }
+                    }       
+                }
+            }
+        </script>
+    </body>
+    </html>
+    
