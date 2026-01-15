@@ -1,13 +1,14 @@
 import os
-import urllib.parse
 
 # --- CONFIGURATION ---
-# REPLACE WITH YOUR NEW LIVE GITHUB URL (Must end with a slash)
-BASE_URL = "https://your-username.github.io/llm-benchmark-db/"
+# I updated this to your REAL url
+BASE_URL = "https://robertk4.github.io/llm-benchmark-db/"
+
+# I updated this to look in the 'docs' folder where your 506 pages are
 OUTPUT_DIR = "docs"
 
 def generate_sitemap():
-    print(f"Generating sitemap for {BASE_URL}...")
+    print(f"Scanning '{OUTPUT_DIR}' for pages...")
     
     urls = []
     
