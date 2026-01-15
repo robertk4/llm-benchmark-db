@@ -5,7 +5,7 @@ import json
 import re
 
 # --- CONFIGURATION ---
-OUTPUT_DIR = "site"
+OUTPUT_DIR = "docs"
 CSV_FILE = "perf-df-pytorch-cuda-bnb-1xA10.csv"
 
 # Affiliate Links (Customize these later)
