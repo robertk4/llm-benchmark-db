@@ -13,10 +13,10 @@ CSV_FILE = "perf-df-pytorch-cuda-bnb-1xA10.csv"
 my_tag = "robertk4-20"
 
 LINKS = {
-    "low_vram": "https://amazon.com/s?k=rtx+4060+16gb&tag={my_tag}", # < 12GB
-    "mid_vram": "https://amazon.com/s?k=rtx+4070+super&tag={my_tag}", # 12-16GB
-    "high_vram": "https://amazon.com/s?k=rtx+3090+24gb&tag={my_tag}", # 24GB
-    "pro_vram": "https://amazon.com/s?k=rtx+6000+ada&tag={my_tag}"   # > 24GB
+    "low_vram": f"https://amazon.com/s?k=rtx+4060+16gb&tag={my_tag}", # < 12GB
+    "mid_vram": f"https://amazon.com/s?k=rtx+4070+super&tag={my_tag}", # 12-16GB
+    "high_vram": f"https://amazon.com/s?k=rtx+3090+24gb&tag={my_tag}", # 24GB
+    "pro_vram": f"https://amazon.com/s?k=rtx+6000+ada&tag={my_tag}"   # > 24GB
 }
 
 def clean_slug(text):
